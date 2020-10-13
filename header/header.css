@@ -1,25 +1,22 @@
 :root {
     --header-background-color: #121111;
     --header-navigation-item-hover: #242424;
+    --header-text-color: white;
 }
 
 .header {
     background-color: var(--header-background-color);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header__logo-container {
     margin: auto 0;
-    display: block;
-    color: white;
+    color: var(--header-text-color);
 }
 
-.header__navigation-container {}
-
 .header__navigation-list {
-    align-items: center;
     margin: auto;
 }
 
@@ -28,7 +25,7 @@
     list-style-type: none;
     float: left;
     
-    color: lavenderblush;
+    color: var(--header-text-color);
 }
 
 .header__navigation-link {
@@ -42,7 +39,26 @@
 }
 
 .header__navigation-item:target {
-    font-weight: 700;
-    border-top-color: white;
+    font-weight: 600;
+    border-top-color: var(--header-text-color);
     background-color: var(--header-navigation-item-hover);
+}
+
+.header__auth-container {
+    margin: auto 0;
+}
+
+.header__auth-item {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+
+    margin: 0 15px;
+
+    color: var(--header-text-color);
+}
+
+.header__auth-item_small-text {
+    font-size: 11px;
 }
