@@ -16,6 +16,10 @@
     color: var(--header-text-color);
 }
 
+.header__logo-image {
+    height: 3.5rem;
+}
+
 .header__navigation-list {
     margin: auto;
 }
@@ -30,7 +34,7 @@
 
 .header__navigation-link {
     display: inline-block;
-    padding: 30px 20px;
+    padding: 1.5rem 1rem;
 }
 
 .header__navigation-item:hover {
@@ -54,11 +58,17 @@
     align-items: center;
     float: left;
 
-    margin: 0 15px;
+    margin: 0 1rem;
 
     color: var(--header-text-color);
 }
 
-.header__auth-item_small-text {
-    font-size: 11px;
+.header__auth-icon {
+    height: 1.2rem;
 }
+
+.header__auth-item_small-text {
+    font-size: 0.7rem;
+}
+
+

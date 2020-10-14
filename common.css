@@ -1,6 +1,10 @@
-body {
+html {
     font-family: 'myfont';
+    font-weight: 200;
     font-size: 18px;
+}
+
+body {
     margin: 0;
     height: auto;
 }
@@ -12,7 +16,5 @@ a {
 
 @font-face {
     font-family: 'myfont';
-    /*src: url(//fonts.googleapis.com/css?family=Open+Sans) format('woff2');
-    src: url(//fonts.googleapis.com/css?family=Open+Sans) format('woff');*/
     src: local('Segoe UI');
 }
