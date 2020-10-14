@@ -1,3 +1,9 @@
+:root {
+    --header-background-color: #121111;
+    --header-navigation-item-hover: #242424;
+    --white-text: white;
+}
+
 html {
     font-family: 'myfont';
     font-weight: 200;

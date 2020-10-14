@@ -1,19 +1,15 @@
-:root {
-    --header-background-color: #121111;
-    --header-navigation-item-hover: #242424;
-    --header-text-color: white;
-}
-
 .header {
     background-color: var(--header-background-color);
     display: flex;
-    flex-flow: row wrap;
+    position: fixed;
+    width: 100%;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
 }
 
 .header__logo-container {
     margin: auto 0;
-    color: var(--header-text-color);
+    color: var(--white-text);
 }
 
 .header__logo-image {
@@ -29,7 +25,7 @@
     list-style-type: none;
     float: left;
     
-    color: var(--header-text-color);
+    color: var(--white-text);
 }
 
 .header__navigation-link {
@@ -44,7 +40,7 @@
 
 .header__navigation-item:target {
     font-weight: 600;
-    border-top-color: var(--header-text-color);
+    border-top-color: var(--white-text);
     background-color: var(--header-navigation-item-hover);
 }
 
@@ -60,7 +56,7 @@
 
     margin: 0 1rem;
 
-    color: var(--header-text-color);
+    color: var(--white-text);
 }
 
 .header__auth-icon {
@@ -70,5 +66,3 @@
 .header__auth-item_small-text {
     font-size: 0.7rem;
 }
-
-
