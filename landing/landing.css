@@ -1,0 +1,101 @@
+.landing {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    background: url(../shared/landing-image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landing__text-container {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+}
+
+.landing__text {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.landing__app-container {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.landing__app-image {
+    height: 35rem;
+}
+
+.landing__text-main {
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--white-text);
+    text-shadow: 0 0.25rem 0 #011f26;
+}
+
+.landing__text-common {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: var(--white-text);
+}
+
+.landing__buttons-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing__inner-button-container {
+    margin: 2rem;
+}
+
+.landing__button {
+    display: block;
+    float: left;
+
+    padding: 0.5rem 0.7rem;
+
+    background: inherit;
+    border: solid 1px var(--white-text);
+    border-radius: 0;
+    color: var(--white-text);
+    font-size: 1rem;
+}
+
+.landing__button:focus {
+    outline: none;
+}
+
+.landing__button:hover {
+    cursor: pointer;
+    background: #e8e9ea;
+    color: #4999ae;
+}
+
+.landing__input {
+    padding: 0.5rem 0.7rem;
+
+    appearance: none;
+    width: 4.5rem;
+    background: #e8e9ea;
+    border: solid 1px var(--white-text);
+    border-radius: 0;
+    color: #4999ae;
+    font-size: 1rem;
+}
+
+.landing__input::placeholder {
+    color: #4999ae;
+    font-size: 1rem;
+}
+
+.landing__input:focus {
+    outline: none;
+}
