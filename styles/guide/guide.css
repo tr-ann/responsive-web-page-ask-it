@@ -1,0 +1,57 @@
+.guide {
+  --main-text-color: #037693;
+
+  margin: 5rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.guide__title {
+  margin-bottom: 3rem;
+  color: var(--main-text-color);
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.guide__steps-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.guide__step {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  max-width: 15%;
+}
+
+.guide__image-container_blue-background {
+  background-color: var(--main-text-color);
+}
+
+.guide__image-container {
+  width: 6rem;
+  height: 6rem;
+
+  display: flex;
+
+  border: solid 1px var(--main-text-color);
+  border-radius: 0;
+}
+
+.guide__image {
+  height: 4rem;
+  margin: auto;
+}
+
+.guide__step-description {
+  margin-top: 1.5rem;
+
+  text-align: center;
+  font-weight: 600;
+
+  color: var(--main-text-color);
+}

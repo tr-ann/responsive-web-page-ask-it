@@ -4,9 +4,10 @@
 		<title>Ask It</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="header/header.css">
-		<link rel="stylesheet" href="landing/landing.css">
-		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="styles/common.css">
+		<link rel="stylesheet" href="styles/header/header.css">
+		<link rel="stylesheet" href="styles/landing/landing.css">
+		<link rel="stylesheet" href="styles/guide/guide.css">
 	</head>
 	<body>
 		<header class="header">
@@ -47,7 +48,7 @@
 			</div>
 		</header>
 		<main>
-			<div class="landing">
+			<article class="landing">
 				<div class="landing__text-container">
 					<div class="landing__text">
 						<div class="landing__text-main">
@@ -74,7 +75,46 @@
 				<div class="landing__app-container">
 					<img class="landing__app-image" src="shared/app-picture.png">
 				</div>
-			</div>
+			</article>
+			<article class="guide">
+				<div class="guide__title">
+					How it works
+				</div>
+				<div class="guide__steps-container">
+					<div class="guide__step">
+						<div class="guide__image-container guide__image-container_blue-background">
+							<img class="guide__image" src="shared/phone-icon.png">
+						</div>
+						<div class="guide__step-description">
+							Create a FREE account with us
+						</div>
+					</div>
+					<div class="guide__step">
+						<div class="guide__image-container">
+							<img class="guide__image" src="shared/discuss-issue-icon.png">
+						</div>
+						<div class="guide__step-description">
+							Create your own event or Q&A session
+						</div>
+					</div>
+					<div class="guide__step">
+						<div class="guide__image-container">
+							<img class="guide__image" src="shared/qr-code-icon.png">
+						</div>
+						<div class="guide__step-description">
+							Share your meeting code with the participants
+						</div>
+					</div>
+					<div class="guide__step">
+						<div class="guide__image-container">
+							<img class="guide__image" src="shared/favorites-button-icon.png">
+						</div>
+						<div class="guide__step-description">
+							Run your meeting successfully
+						</div>
+					</div>
+				</div>
+			</article>
 		</main>
 	</body>
 </html>
