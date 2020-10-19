@@ -8,47 +8,46 @@
 		<link rel="stylesheet" href="styles/header/header.css">
 		<link rel="stylesheet" href="styles/landing/landing.css">
 		<link rel="stylesheet" href="styles/guide/guide.css">
+		<link rel="stylesheet" href="styles/interaction/interaction.css">
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__logo-container">
-				<img class="header__logo-image" src="shared/header-logo.png">
+				<img class="logo-container__image" src="shared/header-logo.png">
 			</div>
-			<div class="header__navigation-container">
-				<nav class="header__navigation-list">
-					<div class="header__navigation-item" id="home">
-						<a href="#home" class="header__navigation-link">Home</a>
-					</div>
-					<div class="header__navigation-item" id="howitworks">
-						<a href="#howitworks" class="header__navigation-link">How it works</a>
-					</div>
-					<div class="header__navigation-item" id="features">
-						<a href="#features" class="header__navigation-link">Features</a>
-					</div>
-					<div class="header__navigation-item" id="partners">
-						<a href="#partners" class="header__navigation-link">Partners</a>
-					</div>
-					<div class="header__navigation-item" id="events">
-						<a href="#events" class="header__navigation-link">Events</a>
-					</div>
-					<div class="header__navigation-item" id="about">
-						<a href="#about" class="header__navigation-link">About us</a>
-					</div>
-				</nav>
-			</div>
+			<nav class="header__navigation-list">
+				<div class="navigation-list__list-item">
+					<a href="#landing" class="list-item__link">Home</a>
+				</div>
+				<div class="navigation-list__list-item">
+					<a href="#howitworks" class="list-item__link">How it works</a>
+				</div>
+				<div class="navigation-list__list-item">
+					<a href="#features" class="list-item__link">Features</a>
+				</div>
+				<div class="navigation-list__list-item" id="partners">
+					<a href="#partners" class="list-item__link">Partners</a>
+				</div>
+				<div class="navigation-list__list-item" id="events">
+					<a href="#events" class="list-item__link">Events</a>
+				</div>
+				<div class="navigation-list__list-item" id="about">
+					<a href="#about" class="list-item__link">About us</a>
+				</div>
+			</nav>
 			<div class="header__auth-container">
-				<a href="#" class="header__auth-item">
-						<img class="header__auth-icon" src="shared/sign-in-icon.png"></span>
-						<span class="header__auth-item_small-text">Log in</span>
+				<a href="#" class="auth-container__auth-item">
+						<img class="auth-item__icon" src="shared/sign-in-icon.png"></span>
+						<span class="auth-item__text">Log in</span>
 				</a>
-				<a href="#" class="header__auth-item">
-					<img class="header__auth-icon" src="shared/avatar-icon.png"></span>
-					<span class="header__auth-item_small-text">Register</span>
+				<a href="#" class="auth-container__auth-item">
+					<img class="auth-item__icon" src="shared/avatar-icon.png"></span>
+					<span class="auth-item__text">Register</span>
 				</a>
 			</div>
 		</header>
 		<main>
-			<article class="landing">
+			<section id="landing" class="landing">
 				<div class="landing__text-container">
 					<div class="landing__text">
 						<div class="landing__text-main">
@@ -75,8 +74,8 @@
 				<div class="landing__app-container">
 					<img class="landing__app-image" src="shared/app-picture.png">
 				</div>
-			</article>
-			<article class="guide">
+			</section>
+			<section id="howitworks" class="guide">
 				<div class="guide__title">
 					How it works
 				</div>
@@ -114,7 +113,7 @@
 						</div>
 					</div>
 				</div>
-			</article>
+			</section>
 		</main>
 	</body>
 </html>
