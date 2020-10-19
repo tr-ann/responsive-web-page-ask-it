@@ -35,6 +35,10 @@
   text-decoration: underline;
 }
 
+.steps-list__item:active > .item__image-container {
+  background-color: #10282e;
+}
+
 .item__image-container {
   width: 6rem;
   height: 6rem;
