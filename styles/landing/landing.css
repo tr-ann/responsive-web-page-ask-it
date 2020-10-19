@@ -1,16 +1,17 @@
 .landing {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: center;
 
-  background: url(../../shared/landing-image.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(24, 31, 99, 0.7), rgba(17, 50, 80, 0.7)),
+    url(../../shared/landing-background.png) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
 
 .landing__text-container {
+  justify-content: flex-start;
   display: flex;
-  flex: 2 1 auto;
   flex-direction: column;
 }
 
@@ -22,12 +23,14 @@
 }
 
 .landing__app-container {
-  flex: 1 0 auto;
-  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .landing__app-image {
-  max-height: 70vh;
+  margin: 0 4rem;
+  padding-bottom: 2px;
+  max-height: 65vh;
 }
 
 .landing__text-main {
