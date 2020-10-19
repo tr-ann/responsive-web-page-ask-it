@@ -8,45 +8,34 @@
   height: 100vh;
 }
 
-.landing__text-container {
+.landing__info-container {
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
 }
 
-.landing__text {
+.info-container__text-container {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.landing__app-container {
-  display: flex;
-  align-items: flex-end;
-}
-
-.landing__app-image {
-  margin: 0 4rem;
-  padding-bottom: 2px;
-  max-height: 65vh;
-}
-
-.landing__text-main {
+.text-container__title {
   text-align: center;
   font-size: 3.5rem;
   color: var(--white-text);
   text-shadow: 0 0.25rem 0 #011f26;
 }
 
-.landing__text-common {
+.text-container__subtitle {
   text-align: center;
   padding-top: 2rem;
   font-size: 2rem;
   color: var(--white-text);
 }
 
-.landing__buttons-container {
+.info-container__buttons-container {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
@@ -54,11 +43,11 @@
   justify-content: center;
 }
 
-.landing__inner-button-container {
+.buttons-container__single-button-container {
   margin: 2rem;
 }
 
-.landing__button {
+.single-button-container__button {
   display: block;
   float: left;
   padding: 0.5rem 0.7rem;
@@ -69,17 +58,21 @@
   font-size: 1rem;
 }
 
-.landing__button:focus {
+.single-button-container__button:focus {
   outline: none;
 }
 
-.landing__button:hover {
+.single-button-container__button:hover {
   cursor: pointer;
   background: #e8e9ea;
   color: #4999ae;
 }
 
-.landing__input {
+.single-button-container__button:active {
+  background: white;
+}
+
+.single-button-container__input {
   padding: 0.5rem 0.7rem;
   appearance: none;
   width: 4.5rem;
@@ -90,11 +83,22 @@
   font-size: 1rem;
 }
 
-.landing__input::placeholder {
+.single-button-container__input::placeholder {
   color: #4999ae;
   font-size: 1rem;
 }
 
-.landing__input:focus {
+.single-button-container__input:focus {
   outline: none;
+}
+
+.landing__app-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.app-container__image {
+  margin: 0 4rem;
+  padding-bottom: 2px;
+  max-height: 65vh;
 }
