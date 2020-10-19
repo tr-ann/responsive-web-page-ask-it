@@ -1,8 +1,6 @@
 .guide {
   --main-text-color: #037693;
-
   margin: 5rem;
-
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -15,24 +13,29 @@
   letter-spacing: 0.5rem;
 }
 
-.guide__steps-container {
+.guide__steps-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.guide__step {
+.steps-list__item {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   max-width: 15%;
 }
 
-.guide__image-container_blue-background {
-  background-color: var(--main-text-color);
+.steps-list__item:hover > .item__image-container {
+  background-color: #037693;
+  color: white;
 }
 
-.guide__image-container {
+.steps-list__item:hover > .item__description {
+  text-decoration: underline;
+}
+
+.item__image-container {
   width: 6rem;
   height: 6rem;
 
@@ -42,12 +45,12 @@
   border-radius: 0;
 }
 
-.guide__image {
+.image-container__image {
   height: 4rem;
   margin: auto;
 }
 
-.guide__step-description {
+.item__description {
   margin-top: 1.5rem;
 
   text-align: center;
