@@ -13,32 +13,27 @@
 }
 
 .header__logo-image {
-  height: 3.5rem;
+  padding: 0.5rem;
 }
 
 .header__navigation-list {
-  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .header__navigation-item {
+  display: flex;
+  align-items: center;
   border-top: solid 2px var(--header-background-color);
   list-style-type: none;
-  float: left;
-
   color: var(--white-text);
 }
 
 .header__navigation-link {
-  display: inline-block;
-  padding: 1.5rem 1rem;
+  margin: auto 1rem;
 }
 
 .header__navigation-item:hover {
-  border-top-color: var(--header-navigation-item-hover);
-  background-color: var(--header-navigation-item-hover);
-}
-
-.header__navigation-item:target {
   font-weight: 600;
   border-top-color: var(--white-text);
   background-color: var(--header-navigation-item-hover);
@@ -49,13 +44,11 @@
 }
 
 .header__auth-item {
+  margin: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   float: left;
-
-  margin: 0 1rem;
-
   color: var(--white-text);
 }
 
