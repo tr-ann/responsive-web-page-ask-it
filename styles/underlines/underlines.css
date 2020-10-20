@@ -1,0 +1,32 @@
+.underlines-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.underlines-container_reverse {
+  flex-direction: row-reverse;
+}
+
+.underline-image_large {
+  height: 0.4rem;
+}
+
+.underline-image_medium {
+  height: 0.2rem;
+}
+
+.underline-image_small {
+  height: 0.1rem;
+}
+
+.underline-image_small-margin {
+  margin: 0 0.2rem;
+}
+
+.underline-image_medium-margin {
+  margin: 0 0.5rem;
+}
+
+.underline-image_large-margin {
+  margin: 0 1rem;
+}
