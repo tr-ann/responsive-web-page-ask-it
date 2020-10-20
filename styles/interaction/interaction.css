@@ -1,11 +1,14 @@
 .interaction {
-  --main-text-color: white;
-  --background-color: #037693;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  background-color: var(--background-color);
+  background-color: var(--color--interaction-background);
   z-index: 4;
+
+  --color--interaction-text: var(--color--main-text);
+  --color--interaction-background: var(--color--secondary-text);
+  --color--interaction-prompt-text: var(--color--tricks-text);
+  --color--interaction-prompt-background: var(--color--warning);
 }
 
 .interaction__side-title {
@@ -17,8 +20,8 @@
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   font-weight: 100;
-  border: 1px solid white;
-  color: var(--main-text-color);
+  border: 1px solid var(--color--interaction-text);
+  color: var(--color--interaction-text);
 }
 
 .side-title__image {
@@ -36,14 +39,14 @@
   font-size: 2.3rem;
   font-weight: 700;
   white-space: pre-line;
-  color: var(--main-text-color);
+  color: var(--color--interaction-text);
 }
 
 .info-container__subtitle {
   margin-bottom: 2.5rem;
   font-size: 1.3rem;
   font-weight: 500;
-  color: var(--main-text-color);
+  color: var(--color--interaction-text);
 }
 
 .subtitle__shape {
@@ -53,7 +56,7 @@
 
 .info-container__text {
   font-size: 0.9rem;
-  color: var(--main-text-color);
+  color: var(--color--interaction-text);
 }
 
 .interaction__prompts-container {
@@ -68,7 +71,7 @@
   margin-left: 7rem;
   width: 7.5rem;
   height: 7.5rem;
-  background: #f1b451;
+  background: var(--color--interaction-prompt-background);
   border-radius: 0.5rem;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
@@ -89,7 +92,7 @@
 .prompts-container__prompt::after {
   content: "";
   position: absolute;
-  border: solid 1px #f1b451;
+  border: solid 1px var(--color--interaction-prompt-background);
   border-radius: 0.5rem;
   top: -0.5rem;
   left: -0.5rem;
@@ -107,7 +110,7 @@
 }
 
 .prompt__text {
-  color: black;
+  color: var(--color--interaction-prompt-text);
   text-align: center;
   font-weight: 600;
   font-size: 1rem;

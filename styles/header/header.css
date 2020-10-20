@@ -1,16 +1,20 @@
 .header {
-  background-color: var(--header-background-color);
   display: flex;
   position: fixed;
   width: 100%;
   flex-flow: row nowrap;
   justify-content: space-evenly;
   z-index: 10;
+  background-color: var(--color--header-background);
+
+  --color--header-background: var(--color--background);
+  --color--header-hover: var(--color--focus);
+  --color--text: var(--color--main-text);
 }
 
 .header__logo-container {
   margin: auto 0;
-  color: var(--white-text);
+  color: var(--color--text);
 }
 
 .logo-container__image {
@@ -25,15 +29,15 @@
 .navigation-list__list-item {
   display: flex;
   align-items: center;
-  border-top: solid 2px var(--header-background-color);
+  border-top: solid 2px var(--color--header-background);
   list-style-type: none;
-  color: var(--white-text);
+  color: var(--color--text);
 }
 
 .navigation-list__list-item:hover {
   font-weight: 600;
-  border-top-color: var(--white-text);
-  background-color: var(--header-navigation-item-hover);
+  border-top-color: var(--color--text);
+  background-color: var(--color--header-hover);
 }
 
 .list-item__link {
@@ -50,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   float: left;
-  color: var(--white-text);
+  color: var(--color--text);
 }
 
 .auth-item__icon {

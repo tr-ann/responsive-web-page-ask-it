@@ -1,14 +1,18 @@
 .guide {
-  --main-text-color: #037693;
-  margin: 5rem;
+  padding: 5rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+
+  --color--guide-text: var(--color--secondary-text);
+  --color--guide-text-hover: var(--color--main-text);
+  --color--guide-background-hover: var(--color--secondary-text);
+  --color--guide-text-active: var(--color--active-background);
 }
 
 .guide__title {
   margin-bottom: 3rem;
-  color: var(--main-text-color);
+  color: var(--color--guide-text);
   font-size: 3rem;
   letter-spacing: 0.5rem;
 }
@@ -27,8 +31,8 @@
 }
 
 .steps-list__item:hover > .item__image-container {
-  background-color: #037693;
-  color: white;
+  background-color: var(--color--guide-text);
+  color: var(--color--guide-text-hover);
 }
 
 .steps-list__item:hover > .item__description {
@@ -36,14 +40,14 @@
 }
 
 .steps-list__item:active > .item__image-container {
-  background-color: #135161;
+  background-color: var(--color--guide-text-active);
 }
 
 .item__image-container {
   width: 6rem;
   height: 6rem;
   display: flex;
-  border: solid 1px var(--main-text-color);
+  border: solid 1px var(--color--guide-text);
   border-radius: 0;
 }
 
@@ -56,5 +60,5 @@
   margin-top: 1.5rem;
   text-align: center;
   font-weight: 600;
-  color: var(--main-text-color);
+  color: var(--color--guide-text);
 }
