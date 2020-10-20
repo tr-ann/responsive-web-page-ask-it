@@ -91,6 +91,7 @@
 
 .single-button-container__input:focus {
   outline: none;
+  background-color: white;
 }
 
 .landing__app-container {

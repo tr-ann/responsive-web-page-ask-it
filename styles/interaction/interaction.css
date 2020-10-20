@@ -1,0 +1,121 @@
+.interaction {
+  --main-text-color: white;
+  --background-color: #037693;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: var(--background-color);
+  z-index: 4;
+}
+
+.interaction__side-title {
+  margin: -1px 4rem 0 0;
+  padding: 0.6rem;
+  align-self: flex-start;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+  border: 1px solid white;
+  color: var(--main-text-color);
+}
+
+.side-title__image {
+  width: 1rem;
+  transform: rotate(180deg);
+}
+
+.interaction__info-container {
+  margin-bottom: 3rem;
+  width: 35rem;
+}
+
+.info-container__title {
+  margin: 2rem 0 1.5rem 0;
+  font-size: 2.3rem;
+  font-weight: 700;
+  white-space: pre-line;
+  color: var(--main-text-color);
+}
+
+.info-container__subtitle {
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+
+.subtitle__shape {
+  height: 0.1rem;
+  width: 10rem;
+}
+
+.info-container__text {
+  font-size: 0.9rem;
+  color: var(--main-text-color);
+}
+
+.interaction__prompts-container {
+  width: 20rem;
+  align-self: center;
+  padding-top: 3.5rem;
+  position: relative;
+}
+
+.prompts-container__prompt {
+  position: relative;
+  margin-left: 7rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  background: #f1b451;
+  border-radius: 0.5rem;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.prompts-container__prompt_first {
+  margin-bottom: -2.1rem;
+}
+
+.prompts-container__prompt_second {
+  margin-left: 14rem;
+}
+
+.prompts-container__prompt_third {
+  margin-top: -2.1rem;
+}
+
+.prompts-container__prompt::after {
+  content: "";
+  position: absolute;
+  border: solid 1px #f1b451;
+  border-radius: 0.5rem;
+  top: -0.5rem;
+  left: -0.5rem;
+  width: 8.4rem;
+  height: 8.4rem;
+}
+
+.prompt__inner-container {
+  width: 7rem;
+  position: relative;
+  top: -3.3rem;
+  transform: rotate(45deg);
+  transform-origin: 0 100%;
+}
+
+.prompt__text {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.prompt__image-container {
+  text-align: center;
+}
+
+.prompt__image {
+  height: 3rem;
+}

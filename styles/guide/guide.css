@@ -36,15 +36,13 @@
 }
 
 .steps-list__item:active > .item__image-container {
-  background-color: #10282e;
+  background-color: #135161;
 }
 
 .item__image-container {
   width: 6rem;
   height: 6rem;
-
   display: flex;
-
   border: solid 1px var(--main-text-color);
   border-radius: 0;
 }
@@ -56,9 +54,7 @@
 
 .item__description {
   margin-top: 1.5rem;
-
   text-align: center;
   font-weight: 600;
-
   color: var(--main-text-color);
 }

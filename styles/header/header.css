@@ -5,6 +5,7 @@
   width: 100%;
   flex-flow: row nowrap;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
 .header__logo-container {
