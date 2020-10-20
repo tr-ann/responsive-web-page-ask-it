@@ -100,7 +100,8 @@
 .prompt__inner-container {
   width: 7rem;
   position: relative;
-  top: -3.3rem;
+  top: -3rem;
+  right: 0.3rem;
   transform: rotate(45deg);
   transform-origin: 0 100%;
 }
