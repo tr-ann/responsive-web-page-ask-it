@@ -75,6 +75,7 @@
 }
 
 .single-button-container__button:active {
+  border-color: var(--color--landing-text);
   background: var(--color--landing-text);
 }
 
@@ -98,6 +99,12 @@
   outline: none;
   background-color: var(--color--landing-text);
   border-color: var(--color--landing-text);
+}
+
+.single-button-container__input:disabled {
+  outline: none;
+  background-color: var(--color--landing-text-shadow);
+  color: var(--color--landing-text);
 }
 
 .landing__app-container {
