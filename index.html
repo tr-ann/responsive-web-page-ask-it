@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="styles/landing/landing.css">
 		<link rel="stylesheet" href="styles/guide/guide.css">
 		<link rel="stylesheet" href="styles/interaction/interaction.css">
+		<link rel="stylesheet" href="styles/features/features.css">
 	</head>
 	<body>
 		<header class="header">
@@ -16,24 +17,24 @@
 				<img class="logo-container__image" src="shared/header/header-logo.png">
 			</div>
 			<nav class="header__navigation-list">
-				<div class="navigation-list__list-item">
-					<a href="#landing" class="list-item__link">Home</a>
-				</div>
-				<div class="navigation-list__list-item">
-					<a href="#howitworks" class="list-item__link">How it works</a>
-				</div>
-				<div class="navigation-list__list-item">
-					<a href="#features" class="list-item__link">Features</a>
-				</div>
-				<div class="navigation-list__list-item" id="partners">
-					<a href="#partners" class="list-item__link">Partners</a>
-				</div>
-				<div class="navigation-list__list-item" id="events">
-					<a href="#events" class="list-item__link">Events</a>
-				</div>
-				<div class="navigation-list__list-item" id="about">
-					<a href="#about" class="list-item__link">About us</a>
-				</div>
+				<a href="#landing" class="navigation-list__list-item">
+					<span class="list-item__link">Home</span>
+				</a>
+				<a href="#howitworks" class="navigation-list__list-item">
+					<span class="list-item__link">How it works</span>
+				</a>
+				<a href="#features" class="navigation-list__list-item">
+					<span class="list-item__link">Features</span>
+				</a>
+				<a href="#partners" class="navigation-list__list-item" id="partners">
+					<span class="list-item__link">Partners</span>
+				</a>
+				<a href="#events" class="navigation-list__list-item" id="events">
+					<span class="list-item__link">Events</span>
+				</a>
+				<a href="#about" class="navigation-list__list-item" id="about">
+					<span class="list-item__link">About us</span>
+				</a>
 			</nav>
 			<div class="header__auth-container">
 				<a href="#" class="auth-container__auth-item">
@@ -82,10 +83,10 @@
 			</section>
 			<section id="howitworks" class="guide">
 				<div class="guide__title">
-					How it works
+					<span>How it works</span>
 					<div class="underlines-container">
-						<img class="underline-image-medium" src="shared/how-it-works/long-underline.svg">
-						<img class="underline-image-medium underline-image_medium-margin" src="shared/how-it-works/short-underline.svg">
+						<img class="underline-image_medium" src="shared/how-it-works/long-underline.svg">
+						<img class="underline-image_medium underline-image_medium-margin" src="shared/how-it-works/short-underline.svg">
 					</div>
 				</div>
 				<div class="guide__steps-list">
@@ -188,6 +189,25 @@
 				</div>
 			</section>
 			<section id="features" class="features">
+				<div class="features__title">
+					<span>Features</span>
+					<div class="underlines-container">
+						<img class="underline-image_medium" src="shared/how-it-works/long-underline.svg">
+						<img class="underline-image_medium underline-image_medium-margin" src="shared/how-it-works/short-underline.svg">
+					</div>
+				</div>
+				<div class="features__table">
+					<div class="table__row">
+						<div class="table__cell">Ask a question</div>
+						<div class="table__cell">Raise a poll</div>
+						<div class="table__cell">View statistics</div>
+					</div>
+					<div class="table__row">
+						<div class="table__cell">Vote a question</div>
+						<div class="table__cell">Create a survey</div>
+						<div class="table__cell">Privacy ensured</div>
+					</div>
+				</div>
 			</section>
 		</main>
 	</body>
