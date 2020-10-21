@@ -2,7 +2,7 @@
 @import "underlines/underlines.css";
 
 html {
-  font-family: "main-font";
+  font-family: "Segoe";
   font-weight: 200;
   font-size: 18px;
 }
@@ -18,6 +18,6 @@ a {
 }
 
 @font-face {
-  font-family: "main-font";
+  font-family: "Segoe";
   src: local("Segoe UI");
 }
