@@ -19,5 +19,5 @@ a {
 
 @font-face {
   font-family: "Segoe";
-  src: local("Segoe UI");
+  src: url("../shared/fonts/segoe_ui.ttf");
 }
