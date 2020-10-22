@@ -4,14 +4,12 @@
   justify-content: center;
   background-color: var(--color--interaction-background);
   z-index: 4;
-
-  --color--interaction-text: var(--color--main-text);
-  --color--interaction-background: var(--color--secondary-text);
-  --color--interaction-prompt-text: var(--color--tricks-text);
-  --color--interaction-prompt-background: var(--color--warning);
 }
 
 .interaction__side-title {
+  display: flex;
+  flex-flow: row nowrap;
+
   margin: -1px 4rem 0 0;
   padding: 0.6rem;
   align-self: flex-start;

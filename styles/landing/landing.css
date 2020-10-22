@@ -7,11 +7,6 @@
       fixed;
   background-size: cover;
   height: 100vh;
-
-  --color--landing-text: var(--color--main-text);
-  --color--landing-text-shadow: var(--color--shadow);
-  --color--landing-button-text: var(--color--hover);
-  --color--landing-button-background: var(--color--hover-background);
 }
 
 .landing__info-container {
