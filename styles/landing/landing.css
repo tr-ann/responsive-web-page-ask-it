@@ -1,0 +1,114 @@
+.landing {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background: linear-gradient(rgba(24, 31, 99, 0.7), rgba(17, 50, 80, 0.7)),
+    url(../../shared/landing/landing-background.png) no-repeat center center
+      fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.landing__info-container {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container__text-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text-container__title {
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--color--landing-text);
+  text-shadow: 0 0.25rem 0 var(--color--landing-text-shadow);
+}
+
+.text-container__subtitle {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: var(--color--landing-text);
+}
+
+.info-container__buttons-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container__single-button-container {
+  margin: 2rem;
+}
+
+.single-button-container__button {
+  display: block;
+  float: left;
+  padding: 0.5rem 0.7rem;
+  background: inherit;
+  border: solid 1px var(--color--landing-button-background);
+  border-radius: 0;
+  color: var(--color--landing-text);
+  font-size: 1rem;
+}
+
+.single-button-container__button:focus {
+  outline: none;
+}
+
+.single-button-container__button:hover {
+  cursor: pointer;
+  background: var(--color--landing-button-background);
+  color: var(--color--landing-button-text);
+}
+
+.single-button-container__button:active {
+  border-color: var(--color--landing-text);
+  background: var(--color--landing-text);
+}
+
+.single-button-container__input {
+  padding: 0.5rem 0.7rem;
+  appearance: none;
+  width: 4.5rem;
+  background: var(--color--landing-button-background);
+  border: solid 1px var(--color--landing-button-background);
+  border-radius: 0;
+  color: var(--color--landing-button-text);
+  font-size: 1rem;
+}
+
+.single-button-container__input::placeholder {
+  color: var(--color--landing-button-text);
+  font-size: 1rem;
+}
+
+.single-button-container__input:focus {
+  outline: none;
+  background-color: var(--color--landing-text);
+  border-color: var(--color--landing-text);
+}
+
+.single-button-container__input:disabled {
+  outline: none;
+  background-color: var(--color--landing-text-shadow);
+  color: var(--color--landing-text);
+}
+
+.landing__app-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.app-container__image {
+  margin: 0 4rem;
+  padding-bottom: 2px;
+  max-height: 65vh;
+}

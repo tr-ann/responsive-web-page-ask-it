@@ -1,0 +1,23 @@
+@import "colors.css";
+@import "underlines/underlines.css";
+
+html {
+  font-family: "Segoe";
+  font-weight: 200;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Segoe";
+  src: url("../shared/fonts/segoe_ui.ttf");
+}
