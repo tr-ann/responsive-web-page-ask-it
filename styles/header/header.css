@@ -41,22 +41,23 @@
 }
 
 .header__auth-container {
-  margin: auto 0;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .auth-container__auth-item {
-  margin: 0 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  float: left;
+  justify-content: center;
   color: var(--color--text);
 }
 
 .auth-item__icon {
+  margin: 0;
   height: 1.2rem;
 }
 
 .auth-item__text {
+  margin: 0 1rem;
   font-size: 0.7rem;
 }
