@@ -3,11 +3,6 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-
-  --color--guide-text: var(--color--secondary-text);
-  --color--guide-text-hover: var(--color--main-text);
-  --color--guide-background-hover: var(--color--secondary-text);
-  --color--guide-text-active: var(--color--active-background);
 }
 
 .guide__title {
@@ -40,6 +35,7 @@
 }
 
 .steps-list__item:active > .item__image-container {
+  border-color: var(--color--guide-text-active);
   background-color: var(--color--guide-text-active);
 }
 
@@ -51,9 +47,59 @@
   border-radius: 0;
 }
 
-.image-container__image {
-  height: 4rem;
+.item__image {
   margin: auto;
+}
+
+.item__image-create {
+  background: url(../../shared/how-it-works/create.png) center no-repeat;
+  background-size: contain;
+  height: 4.5rem;
+  width: 2.5rem;
+}
+
+.item__image-discuss-issue {
+  background: url(../../shared/how-it-works/discuss-issue.png) center no-repeat;
+  background-size: contain;
+  height: 5rem;
+  width: 4rem;
+}
+
+.item__image-share {
+  background: url(../../shared/how-it-works/share.png) center no-repeat;
+  background-size: contain;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.item__image-favorites-button {
+  background: url(../../shared/how-it-works/favorites-button.png) center
+    no-repeat;
+  background-size: contain;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.steps-list__item:hover .item__image-create {
+  background: url(../../shared/how-it-works/create-white.png) center no-repeat;
+  background-size: contain;
+}
+
+.steps-list__item:hover .item__image-discuss-issue {
+  background: url(../../shared/how-it-works/discuss-issue-white.png) center
+    no-repeat;
+  background-size: contain;
+}
+
+.steps-list__item:hover .item__image-share {
+  background: url(../../shared/how-it-works/share-white.png) center no-repeat;
+  background-size: contain;
+}
+
+.steps-list__item:hover .item__image-favorites-button {
+  background: url(../../shared/how-it-works/favorites-button-white.png) center
+    no-repeat;
+  background-size: contain;
 }
 
 .item__description {
