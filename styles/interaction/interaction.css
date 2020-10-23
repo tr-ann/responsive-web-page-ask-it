@@ -87,7 +87,7 @@
 }
 
 .prompts-container__prompt::after {
-  content: "";
+  content: '';
   position: absolute;
   border: solid 1px var(--color--interaction-prompt-background);
   border-radius: 0.5rem;

@@ -46,7 +46,7 @@
 }
 
 .table__row:nth-child(odd) .table__cell::after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   top: 20%;
@@ -60,7 +60,7 @@
 }
 
 .table__row:nth-child(even) .table__cell::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 10%;
