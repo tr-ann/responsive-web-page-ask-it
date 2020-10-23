@@ -34,6 +34,7 @@
 }
 
 .features-item__image {
+  color: var(--color--features-text);
   margin: auto;
   height: 2rem;
 }

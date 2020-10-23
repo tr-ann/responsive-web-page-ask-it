@@ -99,6 +99,7 @@
 
 .prompt__inner-container {
   width: 7rem;
+  text-align: center;
   position: relative;
   top: -3rem;
   right: 0.3rem;
@@ -118,5 +119,6 @@
 }
 
 .prompt__image {
+  color: var(--color--interaction-prompt-text);
   height: 3rem;
 }
