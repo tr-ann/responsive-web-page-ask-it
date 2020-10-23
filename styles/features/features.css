@@ -31,11 +31,12 @@
   flex-flow: column nowrap;
 }
 
-.item__image {
+.features-item__image {
+  margin: auto;
   height: 2rem;
 }
 
-.item__text {
+.features-item__text {
   color: var(--color--features-text);
   font-size: 1.3rem;
   font-weight: bold;
