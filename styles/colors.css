@@ -43,4 +43,6 @@
   --color--interaction-prompt-background: var(--color--warning);
 
   --color--features-text: var(--color--secondary-text);
+
+  --color--partners-text: var(--color--main-text);
 }

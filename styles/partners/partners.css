@@ -1,0 +1,30 @@
+.partners {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  background: linear-gradient(rgba(91, 90, 90, 0.7), rgba(91, 90, 90, 0.7)),
+    url('../../shared/partners/background.png') no-repeat;
+  background-size: cover;
+}
+
+.partners__title {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: var(--color--partners-text);
+}
+
+.partners__partners-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+.partners-list__item {
+  margin: auto 2rem;
+}
+
+.partners-item__image {
+  max-height: 2rem;
+  max-width: 5rem;
+}
