@@ -1,9 +1,9 @@
-@import "colors.css";
-@import "underlines/underlines.css";
+@import 'colors.css';
+@import 'underlines/underlines.css';
 
 html {
-  font-family: "Segoe";
-  font-weight: 200;
+  font-family: 'Segoe';
+  font-weight: normal;
   font-size: 18px;
 }
 
@@ -18,6 +18,6 @@ a {
 }
 
 @font-face {
-  font-family: "Segoe";
-  src: url("../shared/fonts/segoe_ui.ttf");
+  font-family: 'Segoe';
+  src: url('../shared/fonts/segoe_ui.ttf');
 }

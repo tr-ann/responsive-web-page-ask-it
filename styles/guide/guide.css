@@ -12,34 +12,34 @@
   letter-spacing: 0.5rem;
 }
 
-.guide__steps-list {
+.guide__steps-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.steps-list__item {
+.steps-container__guide-step {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   max-width: 15%;
 }
 
-.steps-list__item:hover > .item__image-container {
+.steps-container__guide-step:hover > .guide-step__image-container {
   background-color: var(--color--guide-text);
   color: var(--color--guide-text-hover);
 }
 
-.steps-list__item:hover > .item__description {
+.steps-container__guide-step:hover > .guide-step__description {
   text-decoration: underline;
 }
 
-.steps-list__item:active > .item__image-container {
+.steps-container__guide-step:active > .guide-step__image-container {
   border-color: var(--color--guide-text-active);
   background-color: var(--color--guide-text-active);
 }
 
-.item__image-container {
+.guide-step__image-container {
   width: 6rem;
   height: 6rem;
   display: flex;
@@ -47,62 +47,59 @@
   border-radius: 0;
 }
 
-.item__image {
+.guide-step__image {
   margin: auto;
 }
 
-.item__image-create {
+.guide-step__image-create {
   background: url(../../shared/how-it-works/create.png) center no-repeat;
   background-size: contain;
   height: 4.5rem;
   width: 2.5rem;
 }
 
-.item__image-discuss-issue {
+.guide-step__image-discuss-issue {
   background: url(../../shared/how-it-works/discuss-issue.png) center no-repeat;
   background-size: contain;
   height: 5rem;
   width: 4rem;
 }
 
-.item__image-share {
+.guide-step__image-share {
   background: url(../../shared/how-it-works/share.png) center no-repeat;
   background-size: contain;
   height: 3.5rem;
   width: 3.5rem;
 }
 
-.item__image-favorites-button {
-  background: url(../../shared/how-it-works/favorites-button.png) center
-    no-repeat;
+.guide-step__image-favorites-button {
+  background: url(../../shared/how-it-works/favorites-button.png) center no-repeat;
   background-size: contain;
   height: 4.5rem;
   width: 4.5rem;
 }
 
-.steps-list__item:hover .item__image-create {
+.steps-container__guide-step:hover .guide-step__image-create {
   background: url(../../shared/how-it-works/create-white.png) center no-repeat;
   background-size: contain;
 }
 
-.steps-list__item:hover .item__image-discuss-issue {
-  background: url(../../shared/how-it-works/discuss-issue-white.png) center
-    no-repeat;
+.steps-container__guide-step:hover .guide-step__image-discuss-issue {
+  background: url(../../shared/how-it-works/discuss-issue-white.png) center no-repeat;
   background-size: contain;
 }
 
-.steps-list__item:hover .item__image-share {
+.steps-container__guide-step:hover .guide-step__image-share {
   background: url(../../shared/how-it-works/share-white.png) center no-repeat;
   background-size: contain;
 }
 
-.steps-list__item:hover .item__image-favorites-button {
-  background: url(../../shared/how-it-works/favorites-button-white.png) center
-    no-repeat;
+.steps-container__guide-step:hover .guide-step__image-favorites-button {
+  background: url(../../shared/how-it-works/favorites-button-white.png) center no-repeat;
   background-size: contain;
 }
 
-.item__description {
+.guide-step__description {
   margin-top: 1.5rem;
   text-align: center;
   font-weight: 600;

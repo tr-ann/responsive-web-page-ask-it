@@ -8,8 +8,10 @@
   --light-gray: #e8e9ea;
   --dark-green: #135161;
   --almost-black: #011f26;
+  --white: white;
+  --black: black;
 
-  --color--main-text: white;
+  --color--main-text: var(--white);
   --color--secondary-text: var(--bright-blue);
   --color--hover: var(--blue);
   --color--action: var(--dark-blue);
@@ -19,7 +21,7 @@
   --color--active-background: var(--dark-green);
   --color--hover-background: var(--light-gray);
   --color--shadow: var(--almost-black);
-  --color--tricks-text: black;
+  --color--tricks-text: var(--black);
 
   --color--header-background: var(--color--background);
   --color--header-hover: var(--color--focus);
