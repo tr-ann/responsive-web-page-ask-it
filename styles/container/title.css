@@ -1,16 +1,16 @@
-.section__title {
+.container__title {
   letter-spacing: 0.5rem;
 }
 
-.section__title_light {
+.container__title_light {
   color: var(--color--main-text);
 }
 
-.section__title_default {
+.container__title_default {
   color: var(--color--secondary-text);
 }
 
-.section__side-title {
+.container__side-title {
   display: flex;
   flex-flow: row nowrap;
 
@@ -30,12 +30,12 @@
   transform: rotate(180deg);
 }
 
-.section__side-title_light {
+.container__side-title_light {
   border-color: var(--color--main-text);
   color: var(--color--main-text);
 }
 
-.section__side-title_default {
+.container__side-title_default {
   border-color: var(--color--secondary-text);
   color: var(--color--secondary-text);
 }

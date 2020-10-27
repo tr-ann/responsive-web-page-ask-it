@@ -1,7 +1,7 @@
 @import 'colors.css';
 @import 'underlines/underlines.css';
-@import 'title/title.css';
-@import 'section/section.css';
+@import 'container/container.css';
+@import 'container/title.css';
 
 @import 'header/header.css';
 @import 'landing/landing.css';

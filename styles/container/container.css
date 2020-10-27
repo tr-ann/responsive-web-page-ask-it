@@ -1,13 +1,13 @@
-.section {
+.container {
   display: flex;
 }
 
-.section_column {
+.container_column {
   flex-flow: column nowrap;
   align-items: center;
 }
 
-.section_row {
+.container_row {
   flex-flow: row nowrap;
   justify-content: center;
 }

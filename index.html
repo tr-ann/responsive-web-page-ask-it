@@ -43,7 +43,7 @@
       </div>
     </header>
     <main>
-      <section id="landing" class="landing section section_row">
+      <section id="landing" class="landing container container_row">
         <div class="landing__info-container">
           <div class="info-container__text-container">
             <h1 class="text-container__title">
@@ -76,8 +76,8 @@
           <img class="app-container__image" src="shared/landing/app-picture.png" alt="Mobile app" />
         </div>
       </section>
-      <section id="howitworks" class="guide section section_column">
-        <h1 class="section__title section__title_default">
+      <section id="howitworks" class="guide container container_column">
+        <h1 class="container__title container__title_default">
           <span>How it works</span>
           <div class="underlines-container">
             <svg width="4.5rem" height="0.2rem">
@@ -123,8 +123,8 @@
           </a>
         </div>
       </section>
-      <section id="interaction" class="interaction section section_row">
-        <div class="section__side-title section__side-title_light">
+      <section id="interaction" class="interaction container container_row">
+        <div class="container__side-title container__side-title_light">
           <svg height="5rem" width="2rem">
             <rect height="4rem" width="0.07rem" x="0.95rem" y="0.5rem" fill="white" />
             <circle r="0.4rem" cx="1rem" cy="0.5rem" fill="white" />
@@ -195,8 +195,8 @@
           </div>
         </div>
       </section>
-      <section id="features" class="features section section_column">
-        <h1 class="section__title section__title_default">
+      <section id="features" class="features container container_column">
+        <h1 class="container__title container__title_default">
           <span>Features</span>
           <div class="underlines-container">
             <svg width="4.8rem" height="0.2rem">
@@ -269,8 +269,8 @@
           </div>
         </div>
       </section>
-      <section id="partners" class="partners section section_column">
-        <h1 class="section__title section__title_light">
+      <section id="partners" class="partners container container_column">
+        <h1 class="container__title container__title_light">
           <span>Partners</span>
           <div class="underlines-container underlines-container_reverse">
             <svg width="5rem" height="0.2rem">
@@ -315,8 +315,8 @@
           </div>
         </div>
       </section>
-      <section id="events" class="events section section_column">
-        <h1 class="section__title section__title_default">
+      <section id="events" class="events container container_column">
+        <h1 class="container__title container__title_default">
           <span>Events</span>
           <div class="underlines-container">
             <svg width="4.5rem" height="0.2rem">
@@ -325,32 +325,67 @@
                 height="0.2rem"
                 x="0.2rem"
                 rx="0.1rem"
-                fill="var(--color--events-text)"
+                fill="var(--color--events-title)"
               />
             </svg>
             <svg width="0.5rem" height="0.2rem">
-              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--events-text)" />
+              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--events-title)" />
             </svg>
           </div>
         </h1>
-        <div class="events__cards-container section section_row">
+        <div class="events__cards-container container container_row">
           <div class="events__card">
-            <div class="card__title">
+            <h1 class="card__title card__title_external-event-bg">
               <span>external</span>
               <span class="card__title_bold">event</span>
+            </h1>
+            <div class="container container_column">
+              <img
+                class="card-info__image"
+                src="./shared/events/usb-connection.png"
+                alt="connection"
+              />
+              <div class="card-info__text">
+                <p class="card-info__text_line">Offers customizable on-line registration</p>
+                <p class="card-info__text_line">service for event organizers. Includes</p>
+                <p class="card-info__text_line">pricing, features, and types of accounts</p>
+              </div>
+              <a class="card-info__button card-info__button_success" href="#">Discover</a>
             </div>
           </div>
           <div class="events__card">
-            <div class="card__title">
+            <h1 class="card__title card__title_interactive-event-bg">
               <span>interactive</span>
               <span class="card__title_bold">event</span>
+            </h1>
+            <div class="container container_column">
+              <img
+                class="card-info__image"
+                src="./shared/events/interactivity.png"
+                alt="connection"
+              />
+              <div class="card-info__text">
+                <p class="card-info__text_line">Offers customizable on-line registration</p>
+                <p class="card-info__text_line">service for event organizers. Includes</p>
+                <p class="card-info__text_line">pricing, features, and types of accounts</p>
+              </div>
+              <a class="card-info__button card-info__button_danger" href="#">Discover</a>
             </div>
           </div>
           <div class="events__card">
-            <h1 class="card__title">
+            <h1 class="card__title card__title_internal-event-bg">
               <span>internal</span>
               <span class="card__title_bold">event</span>
             </h1>
+            <div class="container container_column">
+              <img class="card-info__image" src="./shared/events/hard-disk.png" alt="connection" />
+              <div class="card-info__text">
+                <p class="card-info__text_line">Offers customizable on-line registration</p>
+                <p class="card-info__text_line">service for event organizers. Includes</p>
+                <p class="card-info__text_line">pricing, features, and types of accounts</p>
+              </div>
+              <a class="card-info__button card-info__button_warning" href="#">Discover</a>
+            </div>
           </div>
         </div>
       </section>

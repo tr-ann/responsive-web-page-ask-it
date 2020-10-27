@@ -5,22 +5,157 @@
 
 .events__cards-container {
   width: 100%;
+  font-family: 'Lato-Light';
 }
 
 .events__card {
-  margin: 1.5rem 1.5rem 0;
+  margin: 1.5rem 0.5rem 0;
   width: 20rem;
-  box-shadow: 0 0 0.5rem #d2d2d2;
+  transition-duration: 100ms;
+  box-shadow: 0 0.1rem 0.5rem var(--color--cards-shadow);
+  background-color: var(--color--events-text);
+}
+
+.events__card:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  box-shadow: 0 0 1.5rem var(--color--cards-shadow);
 }
 
 .card__title {
-  margin: 1rem;
-  font-family: 'Lato-Light';
+  padding: 1.5rem 1rem;
+  margin: 2px 0px;
+  box-sizing: border-box;
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
+  color: var(--color--events-text);
 }
 
 .card__title_bold {
   font-weight: bold;
+}
+
+.card__title_external-event-bg {
+  position: relative;
+  background-image: linear-gradient(
+      var(--color-cards-background-success),
+      var(--color-cards-background-success)
+    ),
+    url('../../shared/events/public-speaking.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.card__title_external-event-bg::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-cards-background-success);
+}
+
+.card__title_interactive-event-bg {
+  position: relative;
+  background-image: linear-gradient(
+      var(--color-cards-background-danger),
+      var(--color-cards-background-danger)
+    ),
+    url('../../shared/events/cyber-eye.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.card__title_interactive-event-bg::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-cards-background-danger);
+}
+
+.card__title_internal-event-bg {
+  position: relative;
+  background-image: linear-gradient(
+      var(--color-cards-background-warning),
+      var(--color-cards-background-warning)
+    ),
+    url('../../shared/events/meeting.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.card__title_internal-event-bg::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-cards-background-warning);
+}
+
+.card__card-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.card-info__image {
+  height: 3rem;
+  margin: 1rem auto 0.2rem;
+}
+
+.card-info__text {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.2rem 2rem;
+}
+
+.card-info__text_line {
+  margin: 0;
+}
+
+.card-info__button {
+  color: var(--color--events-text);
+  padding: 0.3rem 1.5rem 0.5rem;
+  margin: 1rem auto 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.card-info__button_danger {
+  background-color: var(--color--events-danger-button);
+}
+
+.card-info__button_danger:active {
+  outline: none;
+  background-color: var(--color-cards-background-danger);
+}
+
+.card-info__button_success {
+  background-color: var(--color--events-success-button);
+}
+
+.card-info__button_success:active {
+  outline: none;
+  background-color: var(--color-cards-background-success);
+}
+
+.card-info__button_warning {
+  background-color: var(--color--events-warning-button);
+}
+
+.card-info__button_warning:active {
+  outline: none;
+  background-color: var(--color-cards-background-warning);
 }
