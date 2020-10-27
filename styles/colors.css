@@ -47,4 +47,5 @@
   --color--partners-text: var(--color--main-text);
 
   --color--events-text: var(--color--secondary-text);
+  --color--events-background: var(--color--hover-background);
 }

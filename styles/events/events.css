@@ -1,3 +1,26 @@
 .events {
+  padding: 3rem;
   background-color: var(--color--events-background);
+}
+
+.events__cards-container {
+  width: 100%;
+}
+
+.events__card {
+  margin: 1.5rem 1.5rem 0;
+  width: 20rem;
+  box-shadow: 0 0 0.5rem #d2d2d2;
+}
+
+.card__title {
+  margin: 1rem;
+  font-family: 'Lato-Light';
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__title_bold {
+  font-weight: bold;
 }

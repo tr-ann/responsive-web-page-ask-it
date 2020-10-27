@@ -9,11 +9,12 @@
 }
 
 .info-container__title {
-  margin: 2rem 0 1.5rem 0;
-  font-size: 2.3rem;
-  font-weight: 700;
-  white-space: pre-line;
   color: var(--color--interaction-text);
+}
+
+.info-container__title_paragraph {
+  display: block;
+  margin: 0;
 }
 
 .info-container__subtitle {

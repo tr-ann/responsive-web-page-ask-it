@@ -5,10 +5,10 @@
 }
 
 .partners__partners-list {
+  margin: 1.5rem auto 3rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin: 4rem auto;
 }
 
 .partners-list__item {

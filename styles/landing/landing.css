@@ -20,15 +20,14 @@
 
 .text-container__title {
   text-align: center;
-  font-size: 3.5rem;
   color: var(--color--landing-text);
   text-shadow: 0 0.25rem 0 var(--color--landing-text-shadow);
+  margin-bottom: 1rem;
 }
 
 .text-container__subtitle {
   text-align: center;
-  padding-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: var(--color--landing-text);
 }
 

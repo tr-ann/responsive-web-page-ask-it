@@ -27,7 +27,22 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 3rem;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 @font-face {
   font-family: 'Segoe';
   src: url('../shared/fonts/segoe_ui.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../shared/fonts/Lato-Light.ttf');
 }

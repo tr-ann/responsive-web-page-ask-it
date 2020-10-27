@@ -1,11 +1,10 @@
 .features {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 .features__table {
   display: table;
   border-collapse: collapse;
-  margin-top: 3rem;
 }
 
 .table__row {
