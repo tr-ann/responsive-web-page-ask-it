@@ -3,6 +3,14 @@
 @import 'title/title.css';
 @import 'section/section.css';
 
+@import 'header/header.css';
+@import 'landing/landing.css';
+@import 'guide/guide.css';
+@import 'interaction/interaction.css';
+@import 'features/features.css';
+@import 'partners/partners.css';
+@import 'events/events.css';
+
 html {
   font-family: 'Segoe';
   font-weight: normal;
