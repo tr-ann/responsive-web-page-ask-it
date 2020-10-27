@@ -5,15 +5,10 @@
   margin: 4rem;
 }
 
-.features__title {
-  font-size: 3rem;
-  color: var(--color--features-text);
-  margin-bottom: 3rem;
-}
-
 .features__table {
   display: table;
   border-collapse: collapse;
+  margin-top: 3rem;
 }
 
 .table__row {

@@ -25,7 +25,7 @@
 
   --color--header-background: var(--color--background);
   --color--header-hover: var(--color--focus);
-  --color--text: var(--color--main-text);
+  --color--header-text: var(--color--main-text);
 
   --color--landing-text: var(--color--main-text);
   --color--landing-text-shadow: var(--color--shadow);

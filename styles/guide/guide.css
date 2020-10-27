@@ -5,14 +5,8 @@
   align-items: center;
 }
 
-.guide__title {
-  margin-bottom: 3rem;
-  color: var(--color--guide-text);
-  font-size: 3rem;
-  letter-spacing: 0.5rem;
-}
-
 .guide__steps-container {
+  margin-top: 3rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
