@@ -109,7 +109,7 @@
 .app-container__image {
   color: var(--color--landing-text);
   font-size: 4rem;
-  margin: 0 4rem;
+  margin-left: 4rem;
   padding-bottom: 2px;
   max-height: 65vh;
 }
