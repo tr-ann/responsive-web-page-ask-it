@@ -52,50 +52,50 @@
 }
 
 .guide-step__image-create {
-  background: url(../../shared/how-it-works/create.png) center no-repeat;
+  background: url('../../shared/how-it-works/create.png') center no-repeat;
   background-size: contain;
   height: 4.5rem;
   width: 2.5rem;
 }
 
 .guide-step__image-discuss-issue {
-  background: url(../../shared/how-it-works/discuss-issue.png) center no-repeat;
+  background: url('../../shared/how-it-works/discuss-issue.png') center no-repeat;
   background-size: contain;
   height: 5rem;
   width: 4rem;
 }
 
 .guide-step__image-share {
-  background: url(../../shared/how-it-works/share.png) center no-repeat;
+  background: url('../../shared/how-it-works/share.png') center no-repeat;
   background-size: contain;
   height: 3.5rem;
   width: 3.5rem;
 }
 
 .guide-step__image-favorites-button {
-  background: url(../../shared/how-it-works/favorites-button.png) center no-repeat;
+  background: url('../../shared/how-it-works/favorites-button.png') center no-repeat;
   background-size: contain;
   height: 4.5rem;
   width: 4.5rem;
 }
 
 .steps-container__guide-step:hover .guide-step__image-create {
-  background: url(../../shared/how-it-works/create-white.png) center no-repeat;
+  background: url('../../shared/how-it-works/create-white.png') center no-repeat;
   background-size: contain;
 }
 
 .steps-container__guide-step:hover .guide-step__image-discuss-issue {
-  background: url(../../shared/how-it-works/discuss-issue-white.png) center no-repeat;
+  background: url('../../shared/how-it-works/discuss-issue-white.png') center no-repeat;
   background-size: contain;
 }
 
 .steps-container__guide-step:hover .guide-step__image-share {
-  background: url(../../shared/how-it-works/share-white.png) center no-repeat;
+  background: url('../../shared/how-it-works/share-white.png') center no-repeat;
   background-size: contain;
 }
 
 .steps-container__guide-step:hover .guide-step__image-favorites-button {
-  background: url(../../shared/how-it-works/favorites-button-white.png) center no-repeat;
+  background: url('../../shared/how-it-works/favorites-button-white.png') center no-repeat;
   background-size: contain;
 }
 
