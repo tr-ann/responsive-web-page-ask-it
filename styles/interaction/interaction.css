@@ -12,7 +12,7 @@
   color: var(--color--interaction-text);
 }
 
-.info-container__title_paragraph {
+.info-container__title_line {
   display: block;
   margin: 0;
 }
