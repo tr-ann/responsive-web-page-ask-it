@@ -1,7 +1,4 @@
 .features {
-  display: flex;
-  align-items: center;
-  flex-flow: column nowrap;
   margin: 4rem;
 }
 

@@ -1,6 +1,7 @@
 @import 'colors.css';
 @import 'underlines/underlines.css';
 @import 'title/title.css';
+@import 'section/section.css';
 
 html {
   font-family: 'Segoe';

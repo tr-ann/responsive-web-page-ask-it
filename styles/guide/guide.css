@@ -1,8 +1,5 @@
 .guide {
   padding: 5rem;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 .guide__steps-container {

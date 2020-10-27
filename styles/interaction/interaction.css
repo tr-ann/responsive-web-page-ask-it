@@ -1,7 +1,4 @@
 .interaction {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
   background-color: var(--color--interaction-background);
   z-index: 4;
 }
