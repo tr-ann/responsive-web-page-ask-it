@@ -33,6 +33,7 @@
 .features-item__text {
   color: var(--color--features-text);
   font-size: 1.3rem;
+  font-family: 'Lato-Medium';
   font-weight: bold;
   margin-top: 1rem;
 }

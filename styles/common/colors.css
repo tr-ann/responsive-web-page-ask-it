@@ -72,4 +72,6 @@
   --color-cards-background-success: var(--color--success-light);
   --color-cards-background-warning: var(--color--warning-light);
   --color-cards-background-danger: var(--color--danger-light);
+
+  --color--about-us-title: var(--color--secondary-text);
 }

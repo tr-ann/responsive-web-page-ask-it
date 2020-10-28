@@ -4,7 +4,7 @@
     <title>Ask It</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header class="header">
@@ -46,7 +46,9 @@
       <section id="landing" class="landing container container_row">
         <div class="landing__info-container">
           <div class="info-container__text-container">
-            <h1 class="text-container__title">
+            <h1
+              class="text-container__title container__title container__title_light container__title_bold"
+            >
               Live Interaction From Audience
               <div class="underlines-container underlines-container_reverse">
                 <svg width="16rem" height="0.4rem">
@@ -60,7 +62,9 @@
                 </svg>
               </div>
             </h1>
-            <div class="text-container__subtitle">Q&A, Polls and Slide-sharing for Events</div>
+            <div class="container__title text-container__subtitle container__title_bold">
+              Q&A, Polls and Slide-sharing for Events
+            </div>
           </div>
           <div class="info-container__buttons-container">
             <div class="buttons-container__single-button-container">
@@ -77,8 +81,8 @@
         </div>
       </section>
       <section id="howitworks" class="guide container container_column">
-        <h1 class="container__title container__title_default">
-          <span>How it works</span>
+        <h1 class="container__title container__title_dark container__title_large-space">
+          How it works
           <div class="underlines-container">
             <svg width="4.5rem" height="0.2rem">
               <rect
@@ -129,17 +133,14 @@
             <rect height="4rem" width="0.07rem" x="0.95rem" y="0.5rem" fill="white" />
             <circle r="0.4rem" cx="1rem" cy="0.5rem" fill="white" />
           </svg>
-          <span>Interaction</span>
+          Interaction
         </div>
         <div class="interaction__info-container">
-          <h2 class="info-container__title">
-            <span class="info-container__title_line">Interact with</span>
-            <span class="info-container__title_line">thousand of</span>
-            <span class="info-container__title_line">audience</span>
-            <span class="info-container__title_line">in no time</span>
-          </h2>
+          <h1 class="info-container__title container__title_bold container__title_light">
+            Interact with thousand of audience in no time
+          </h1>
           <div class="info-container__subtitle">
-            Its easier than ever
+            <span class="container__title_bold">Its easier than ever</span>
             <svg height="0.1rem" width="12rem">
               <rect height="0.05rem" width="12rem" fill="white" />
             </svg>
@@ -196,8 +197,8 @@
         </div>
       </section>
       <section id="features" class="features container container_column">
-        <h1 class="container__title container__title_default">
-          <span>Features</span>
+        <h1 class="container__title container__title_dark container__title_large-space">
+          Features
           <div class="underlines-container">
             <svg width="4.8rem" height="0.2rem">
               <rect
@@ -270,8 +271,8 @@
         </div>
       </section>
       <section id="partners" class="partners container container_column">
-        <h1 class="container__title container__title_light">
-          <span>Partners</span>
+        <h1 class="container__title container__title_light container__title_large-space">
+          Partners
           <div class="underlines-container underlines-container_reverse">
             <svg width="5rem" height="0.2rem">
               <rect
@@ -316,8 +317,8 @@
         </div>
       </section>
       <section id="events" class="events container container_column">
-        <h1 class="container__title container__title_default">
-          <span>Events</span>
+        <h1 class="container__title container__title_dark container__title_large-space">
+          Events
           <div class="underlines-container">
             <svg width="4.5rem" height="0.2rem">
               <rect
@@ -336,26 +337,21 @@
         <div class="events__cards-container container container_row">
           <div class="events__card">
             <h1 class="card__title card__title_external-event-bg">
-              <span>external</span>
+              external
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column">
-              <img
-                class="card-info__image"
-                src="./shared/events/usb-connection.png"
-                alt="connection"
-              />
-              <div class="card-info__text">
-                <p class="card-info__text_line">Offers customizable on-line registration</p>
-                <p class="card-info__text_line">service for event organizers. Includes</p>
-                <p class="card-info__text_line">pricing, features, and types of accounts</p>
-              </div>
+              <img class="card-info__image" src="./shared/events/usb-connection.png" /></img>
+              <p class="card-info__text">
+                Offers customizable on-line registration service for event organizers. Includes
+                pricing, features, and types of accounts
+              </p>
               <a class="card-info__button card-info__button_success" href="#">Discover</a>
             </div>
           </div>
           <div class="events__card">
             <h1 class="card__title card__title_interactive-event-bg">
-              <span>interactive</span>
+              interactive
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column">
@@ -364,26 +360,24 @@
                 src="./shared/events/interactivity.png"
                 alt="connection"
               />
-              <div class="card-info__text">
-                <p class="card-info__text_line">Offers customizable on-line registration</p>
-                <p class="card-info__text_line">service for event organizers. Includes</p>
-                <p class="card-info__text_line">pricing, features, and types of accounts</p>
-              </div>
+              <p class="card-info__text">
+                Offers customizable on-line registration service for event organizers. Includes
+                pricing, features, and types of accounts
+              </p>
               <a class="card-info__button card-info__button_danger" href="#">Discover</a>
             </div>
           </div>
           <div class="events__card">
             <h1 class="card__title card__title_internal-event-bg">
-              <span>internal</span>
+              internal
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column">
               <img class="card-info__image" src="./shared/events/hard-disk.png" alt="connection" />
-              <div class="card-info__text">
-                <p class="card-info__text_line">Offers customizable on-line registration</p>
-                <p class="card-info__text_line">service for event organizers. Includes</p>
-                <p class="card-info__text_line">pricing, features, and types of accounts</p>
-              </div>
+              <p class="card-info__text">
+                Offers customizable on-line registration service for event organizers. Includes
+                pricing, features, and types of accounts
+              </p>
               <a class="card-info__button card-info__button_warning" href="#">Discover</a>
             </div>
           </div>

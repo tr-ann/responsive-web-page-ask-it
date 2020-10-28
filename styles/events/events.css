@@ -5,19 +5,18 @@
 
 .events__cards-container {
   width: 100%;
-  font-family: 'Lato-Light';
 }
 
 .events__card {
   margin: 1.5rem 0.5rem 0;
-  width: 20rem;
+  width: 18rem;
   transition-duration: 100ms;
   box-shadow: 0 0.1rem 0.5rem var(--color--cards-shadow);
   background-color: var(--color--events-text);
 }
 
 .events__card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1) translateY(-0.4rem);
   z-index: 1;
   box-shadow: 0 0 1.5rem var(--color--cards-shadow);
 }
@@ -33,7 +32,9 @@
 }
 
 .card__title_bold {
+  font-family: 'Lato-Medium';
   font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
 .card__title_external-event-bg {
@@ -99,12 +100,6 @@
   background-color: var(--color-cards-background-warning);
 }
 
-.card__card-info {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
 .card-info__image {
   height: 3rem;
   margin: 1rem auto 0.2rem;
@@ -113,12 +108,9 @@
 .card-info__text {
   text-align: center;
   font-size: 0.8rem;
+  line-height: 1.2rem;
   font-weight: bold;
-  margin: 0.2rem 2rem;
-}
-
-.card-info__text_line {
-  margin: 0;
+  margin: 0.2rem 2rem 0;
 }
 
 .card-info__button {

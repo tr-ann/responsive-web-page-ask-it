@@ -9,12 +9,9 @@
 }
 
 .info-container__title {
-  color: var(--color--interaction-text);
-}
-
-.info-container__title_line {
-  display: block;
-  margin: 0;
+  width: 18rem;
+  font-family: 'Lato-Medium';
+  margin: 1rem 0;
 }
 
 .info-container__subtitle {

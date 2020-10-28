@@ -3,16 +3,8 @@
 @import 'container/container.css';
 @import 'container/title.css';
 
-@import 'header/header.css';
-@import 'landing/landing.css';
-@import 'guide/guide.css';
-@import 'interaction/interaction.css';
-@import 'features/features.css';
-@import 'partners/partners.css';
-@import 'events/events.css';
-
 html {
-  font-family: 'Segoe';
+  font-family: 'Lato-Light';
   font-weight: normal;
   font-size: 18px;
 }
@@ -35,14 +27,15 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-}
-
-@font-face {
-  font-family: 'Segoe';
-  src: url('../shared/fonts/segoe_ui.ttf');
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'Lato-Light';
-  src: url('../shared/fonts/Lato-Light.ttf');
+  src: url('../../shared/fonts/lato-light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Medium';
+  src: url('../../shared/fonts/lato-medium.ttf');
 }
