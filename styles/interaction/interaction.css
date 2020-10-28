@@ -1,30 +1,6 @@
 .interaction {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
   background-color: var(--color--interaction-background);
   z-index: 4;
-}
-
-.interaction__side-title {
-  display: flex;
-  flex-flow: row nowrap;
-
-  margin: -1px 4rem 0 0;
-  padding: 0.6rem;
-  align-self: flex-start;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 1.3rem;
-  letter-spacing: 0.1rem;
-  font-weight: 100;
-  border: 1px solid var(--color--interaction-text);
-  color: var(--color--interaction-text);
-}
-
-.side-title__image {
-  width: 1rem;
-  transform: rotate(180deg);
 }
 
 .interaction__info-container {
@@ -33,11 +9,9 @@
 }
 
 .info-container__title {
-  margin: 2rem 0 1.5rem 0;
-  font-size: 2.3rem;
-  font-weight: 700;
-  white-space: pre-line;
-  color: var(--color--interaction-text);
+  width: 18rem;
+  font-family: 'Lato-Medium';
+  margin: 1rem 0;
 }
 
 .info-container__subtitle {

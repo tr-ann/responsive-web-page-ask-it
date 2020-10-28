@@ -1,0 +1,41 @@
+@import 'colors.css';
+@import 'underlines/underlines.css';
+@import 'container/container.css';
+@import 'container/title.css';
+
+html {
+  font-family: 'Lato-Light';
+  font-weight: normal;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../../shared/fonts/lato-light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Medium';
+  src: url('../../shared/fonts/lato-medium.ttf');
+}

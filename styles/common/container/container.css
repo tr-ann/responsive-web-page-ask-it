@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.container_column {
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.container_row {
+  flex-flow: row nowrap;
+  justify-content: center;
+}

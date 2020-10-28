@@ -3,11 +3,18 @@
   --dark-gray: #242424;
   --bright-blue: #037693;
   --dark-blue: #135161;
-  --orange: #f1b451;
+  --dark-yellow: #f1b451;
   --blue: #4999ae;
+  --gray: #b2b2b2;
   --light-gray: #e8e9ea;
   --dark-green: #135161;
   --almost-black: #011f26;
+  --light-green: rgba(101, 172, 163, 0.9);
+  --light-orange: rgba(242, 180, 124, 0.9);
+  --light-red: rgba(224, 122, 107, 0.9);
+  --green: rgba(76, 165, 154, 1);
+  --orange: rgba(240, 167, 101, 1);
+  --red: rgba(242, 98, 80, 1);
   --white: white;
   --black: black;
 
@@ -17,15 +24,23 @@
   --color--action: var(--dark-blue);
   --color--focus: var(--dark-gray);
   --color--background: var(--dark-brown);
-  --color--warning: var(--orange);
+  --color--prompt: var(--dark-yellow);
   --color--active-background: var(--dark-green);
   --color--hover-background: var(--light-gray);
   --color--shadow: var(--almost-black);
+  --color--shadow-light: var(--gray);
   --color--tricks-text: var(--black);
+
+  --color--success: var(--green);
+  --color--warning: var(--orange);
+  --color--danger: var(--red);
+  --color--success-light: var(--light-green);
+  --color--warning-light: var(--light-orange);
+  --color--danger-light: var(--light-red);
 
   --color--header-background: var(--color--background);
   --color--header-hover: var(--color--focus);
-  --color--text: var(--color--main-text);
+  --color--header-text: var(--color--main-text);
 
   --color--landing-text: var(--color--main-text);
   --color--landing-text-shadow: var(--color--shadow);
@@ -40,9 +55,23 @@
   --color--interaction-text: var(--color--main-text);
   --color--interaction-background: var(--color--secondary-text);
   --color--interaction-prompt-text: var(--color--tricks-text);
-  --color--interaction-prompt-background: var(--color--warning);
+  --color--interaction-prompt-background: var(--color--prompt);
 
   --color--features-text: var(--color--secondary-text);
 
   --color--partners-text: var(--color--main-text);
+
+  --color--events-title: var(--color--secondary-text);
+  --color--events-text: var(--color--main-text);
+  --color--events-background: var(--color--hover-background);
+  --color--events-success-button: var(--color--success);
+  --color--events-warning-button: var(--color--warning);
+  --color--events-danger-button: var(--color--danger);
+  --color--cards-shadow: var(--color--shadow-light);
+  --color--cards-dark-shadow: var(--color--focus);
+  --color-cards-background-success: var(--color--success-light);
+  --color-cards-background-warning: var(--color--warning-light);
+  --color-cards-background-danger: var(--color--danger-light);
+
+  --color--about-us-title: var(--color--secondary-text);
 }

@@ -1,0 +1,48 @@
+.container__title {
+  text-align: center;
+}
+
+.container__title_light {
+  color: var(--color--main-text);
+}
+
+.container__title_large-space {
+  letter-spacing: 0.3rem;
+}
+
+.container__title_dark {
+  color: var(--color--secondary-text);
+}
+
+.container__title_bold {
+  font-weight: bold;
+}
+
+.container__side-title {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: -1px 4rem 0 0;
+  padding: 0.6rem;
+  align-self: flex-start;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+  border: 1px solid;
+}
+
+.side-title__image {
+  width: 1rem;
+  transform: rotate(180deg);
+}
+
+.container__side-title_light {
+  border-color: var(--color--main-text);
+  color: var(--color--main-text);
+}
+
+.container__side-title_dark {
+  border-color: var(--color--secondary-text);
+  color: var(--color--secondary-text);
+}
