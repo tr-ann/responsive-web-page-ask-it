@@ -29,6 +29,7 @@
   border-top: solid 2px var(--color--header-background);
   list-style-type: none;
   color: var(--color--header-text);
+  transition: 200ms;
 }
 
 .navigation-list__list-item:hover,
