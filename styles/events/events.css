@@ -119,7 +119,7 @@
   margin: 1rem auto 2rem;
   font-size: 1rem;
   font-weight: bold;
-  border: none;
+  border: 2px solid var(--color--events-text);
   text-decoration: none;
   border-radius: 1.5rem;
   cursor: pointer;
@@ -129,25 +129,46 @@
   background-color: var(--color--events-danger-button);
 }
 
+.card-info__button_danger:hover,
+.card-info__button_danger:focus {
+  border-color: var(--color--events-danger-button);
+  background-color: var(--color--events-danger-button);
+}
+
 .card-info__button_danger:active {
   outline: none;
   background-color: var(--color-cards-background-danger);
+  border-color: var(--color-cards-background-danger);
 }
 
 .card-info__button_success {
   background-color: var(--color--events-success-button);
 }
 
+.card-info__button_success:hover,
+.card-info__button_success:focus {
+  border-color: var(--color--events-success-button);
+  background-color: var(--color--events-success-button);
+}
+
 .card-info__button_success:active {
   outline: none;
   background-color: var(--color-cards-background-success);
+  border-color: var(--color-cards-background-success);
 }
 
 .card-info__button_warning {
   background-color: var(--color--events-warning-button);
 }
 
+.card-info__button_warning:hover,
+.card-info__button_warning:focus {
+  border-color: var(--color--events-warning-button);
+  background-color: var(--color--events-warning-button);
+}
+
 .card-info__button_warning:active {
   outline: none;
   background-color: var(--color-cards-background-warning);
+  border-color: var(--color-cards-background-warning);
 }
