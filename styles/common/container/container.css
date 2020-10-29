@@ -11,3 +11,15 @@
   flex-flow: row nowrap;
   justify-content: center;
 }
+
+.container__text {
+  font-size: 0.9rem;
+}
+
+.container__text_light {
+  color: var(--color--main-text);
+}
+
+.container__text_dark {
+  color: var(--color--tricks-text);
+}

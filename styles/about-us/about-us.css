@@ -1,0 +1,46 @@
+.about-us {
+  margin: 3rem 0;
+}
+
+.about-us-info__title {
+  font-family: 'Lato-Medium';
+  margin: 0px;
+}
+
+.about-us-info__subtitle {
+  font-family: 'Lato-Medium';
+  margin: 0px 0px 1rem;
+}
+
+.about-us-info__text {
+  max-width: 31rem;
+  margin-right: 1rem;
+}
+
+.about-us-info__statistics {
+  position: relative;
+  margin: auto 1rem;
+  max-width: 9rem;
+}
+
+.statistics__title {
+  font-size: 2rem;
+}
+
+.statistics__text {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.8rem auto 1.3rem;
+}
+
+.about-us-info__statistics_success {
+  color: var(--color--about-us-success);
+}
+
+.about-us-info__statistics_warning {
+  color: var(--color--about-us-warning);
+}
+
+.about-us-info__statistics_danger {
+  color: var(--color--about-us-danger);
+}

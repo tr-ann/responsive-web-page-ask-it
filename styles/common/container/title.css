@@ -32,6 +32,10 @@
   border: 1px solid;
 }
 
+.side-title_without-top-border {
+  border-bottom: none;
+}
+
 .side-title__image {
   width: 1rem;
   transform: rotate(180deg);
