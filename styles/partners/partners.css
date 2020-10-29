@@ -6,13 +6,10 @@
 
 .partners__partners-list {
   margin: 1.5rem auto 3rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
 }
 
 .partners-list__item {
-  margin: auto 2rem;
+  margin: auto 1rem;
 }
 
 .partners-item__image {

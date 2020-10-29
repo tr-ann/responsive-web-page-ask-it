@@ -41,6 +41,7 @@
 
 .list-item__link {
   margin: auto 1rem;
+  text-align: center;
 }
 
 .header__auth-container {
@@ -63,4 +64,5 @@
 .auth-item__text {
   margin: 0 1rem;
   font-size: 0.7rem;
+  text-align: center;
 }

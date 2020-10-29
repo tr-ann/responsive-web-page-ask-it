@@ -5,7 +5,7 @@
 
 .interaction__info-container {
   margin-bottom: 3rem;
-  width: 35rem;
+  max-width: 31rem;
 }
 
 .info-container__title {
@@ -23,7 +23,7 @@
 }
 
 .interaction__prompts-container {
-  width: 20rem;
+  max-width: 18rem;
   align-self: center;
   padding-top: 3.5rem;
   position: relative;

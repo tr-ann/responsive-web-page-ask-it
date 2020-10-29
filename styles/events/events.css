@@ -9,7 +9,7 @@
 
 .events__card {
   margin: 1.5rem 0.5rem 0;
-  width: 18rem;
+  max-width: 18rem;
   transition-duration: 100ms;
   box-shadow: 0 0.1rem 0.5rem var(--color--cards-shadow);
   background-color: var(--color--events-text);
