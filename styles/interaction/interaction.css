@@ -10,7 +10,7 @@
 
 .info-container__title {
   width: 18rem;
-  font-family: 'Lato-Medium';
+  font-weight: bold;
   margin: 1rem 0;
 }
 
@@ -76,8 +76,7 @@
 .prompt__text {
   color: var(--color--interaction-prompt-text);
   text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: bold;
 }
 
 .prompt__image-container {

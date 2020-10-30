@@ -32,7 +32,6 @@
 }
 
 .card__title_bold {
-  font-family: 'Lato-Medium';
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
@@ -109,7 +108,6 @@
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.2rem;
-  font-weight: bold;
   margin: 0.2rem 2rem 0;
 }
 
@@ -117,13 +115,11 @@
   color: var(--color--events-text);
   padding: 0.3rem 1.5rem 0.5rem;
   margin: 1rem auto 2rem;
-  font-size: 1rem;
-  font-weight: bold;
   border: 2px solid var(--color--events-text);
   text-decoration: none;
   border-radius: 1.5rem;
   cursor: pointer;
-  transition-duration: 200ms;
+  transition: transform 0.2s;
 }
 
 .card-info__button_danger {

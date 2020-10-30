@@ -20,7 +20,6 @@
 
 .text-container__title {
   text-shadow: 0 0.25rem 0 var(--color--landing-text-shadow);
-  font-family: 'Lato-Medium';
   margin-bottom: 1rem;
 }
 
@@ -49,7 +48,7 @@
   border: solid 1px var(--color--landing-button-background);
   border-radius: 0;
   color: var(--color--landing-text);
-  font-size: 1rem;
+  font-size: inherit;
 }
 
 .single-button-container__button:hover,
@@ -71,13 +70,12 @@
   background: var(--color--landing-button-background);
   border: solid 1px var(--color--landing-button-background);
   border-radius: 0;
+  font-size: inherit;
   color: var(--color--landing-button-text);
-  font-size: 1rem;
 }
 
 .single-button-container__input::placeholder {
   color: var(--color--landing-button-text);
-  font-size: 1rem;
 }
 
 .single-button-container__input:focus {

@@ -32,7 +32,8 @@
   border: 1px solid;
 }
 
-.side-title_without-top-border {
+/* actually remove top border */
+.side-title_without-bottom-border {
   border-bottom: none;
 }
 
