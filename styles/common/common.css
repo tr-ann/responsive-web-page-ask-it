@@ -30,6 +30,14 @@ h2 {
   font-weight: normal;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 @font-face {
   font-family: 'Lato-Light';
   src: url('../../shared/fonts/lato-light.ttf');
