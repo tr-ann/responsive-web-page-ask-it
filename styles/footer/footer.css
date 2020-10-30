@@ -60,7 +60,7 @@
 .newsletter__input {
   color: var(--color-footer-text);
   font-family: inherit;
-  font-size: inherit;
+  font-size: 0.9rem;
   line-height: 1.5rem;
   text-align: center;
   background-color: inherit;
