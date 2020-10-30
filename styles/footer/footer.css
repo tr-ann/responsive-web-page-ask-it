@@ -24,9 +24,22 @@
   margin-right: 5rem;
 }
 
+.footer__social-block {
+  min-width: 16rem;
+}
+
 .footer-info-block__links-container {
   justify-content: space-evenly;
   margin: 1.5rem auto;
+}
+
+.footer-info-block__link-content {
+  transition: transform 0.2s;
+}
+
+.footer-info-block__link-content:hover,
+.footer-info-block__link-content:focus {
+  transform: scale(1.1);
 }
 
 .footer-info-block__hover-link:hover,
@@ -52,6 +65,7 @@
   text-align: center;
   background-color: inherit;
   border: none;
+  flex: auto;
 }
 
 .newsletter__image,

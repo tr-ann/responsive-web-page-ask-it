@@ -11,3 +11,7 @@
   flex-flow: row nowrap;
   justify-content: center;
 }
+
+.container__text {
+  font-size: 0.9rem;
+}
