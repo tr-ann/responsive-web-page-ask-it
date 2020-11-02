@@ -21,20 +21,22 @@
 .container__side-title {
   display: flex;
   flex-flow: row nowrap;
-  margin: -1px 4rem 0 0;
-  padding: 0.6rem;
   align-self: flex-start;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  position: relative;
+  width: 11rem;
+  padding: 0.4rem;
+  top: 4.58rem;
+  transform: rotate(-90deg);
+  white-space: nowrap;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   font-weight: 100;
   border: 1px solid;
 }
 
-.side-title__image {
-  width: 1rem;
-  transform: rotate(180deg);
+/* actually remove top border */
+.side-title_without-right-border {
+  border-right: none;
 }
 
 .container__side-title_light {

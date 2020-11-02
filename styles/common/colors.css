@@ -9,9 +9,9 @@
   --light-gray: #e8e9ea;
   --dark-green: #135161;
   --almost-black: #011f26;
-  --light-green: rgba(101, 172, 163, 0.9);
-  --light-orange: rgba(242, 180, 124, 0.9);
-  --light-red: rgba(224, 122, 107, 0.9);
+  --light-green: rgba(101, 172, 163, 0.8);
+  --light-orange: rgba(242, 180, 124, 0.8);
+  --light-red: rgba(224, 122, 107, 0.8);
   --green: rgba(76, 165, 154, 1);
   --orange: rgba(240, 167, 101, 1);
   --red: rgba(242, 98, 80, 1);
@@ -74,4 +74,7 @@
   --color-cards-background-danger: var(--color--danger-light);
 
   --color--about-us-title: var(--color--secondary-text);
+  --color--about-us-success: var(--color--success);
+  --color--about-us-warning: var(--color--warning);
+  --color--about-us-danger: var(--color--danger);
 }

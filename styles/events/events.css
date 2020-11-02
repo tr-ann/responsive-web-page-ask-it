@@ -9,7 +9,7 @@
 
 .events__card {
   margin: 1.5rem 0.5rem 0;
-  width: 18rem;
+  max-width: 18rem;
   transition-duration: 100ms;
   box-shadow: 0 0.1rem 0.5rem var(--color--cards-shadow);
   background-color: var(--color--events-text);
@@ -32,7 +32,6 @@
 }
 
 .card__title_bold {
-  font-family: 'Lato-Medium';
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
@@ -109,7 +108,6 @@
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.2rem;
-  font-weight: bold;
   margin: 0.2rem 2rem 0;
 }
 
@@ -117,22 +115,20 @@
   color: var(--color--events-text);
   padding: 0.3rem 1.5rem 0.5rem;
   margin: 1rem auto 2rem;
-  font-size: 1rem;
-  font-weight: bold;
   border: 2px solid var(--color--events-text);
   text-decoration: none;
   border-radius: 1.5rem;
   cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .card-info__button_danger {
   background-color: var(--color--events-danger-button);
 }
 
-.card-info__button_danger:hover,
-.card-info__button_danger:focus {
-  border-color: var(--color--events-danger-button);
-  background-color: var(--color--events-danger-button);
+.card-info__button:hover,
+.card-info__button:focus {
+  transform: scale(1.1);
 }
 
 .card-info__button_danger:active {
@@ -145,12 +141,6 @@
   background-color: var(--color--events-success-button);
 }
 
-.card-info__button_success:hover,
-.card-info__button_success:focus {
-  border-color: var(--color--events-success-button);
-  background-color: var(--color--events-success-button);
-}
-
 .card-info__button_success:active {
   outline: none;
   background-color: var(--color-cards-background-success);
@@ -158,12 +148,6 @@
 }
 
 .card-info__button_warning {
-  background-color: var(--color--events-warning-button);
-}
-
-.card-info__button_warning:hover,
-.card-info__button_warning:focus {
-  border-color: var(--color--events-warning-button);
   background-color: var(--color--events-warning-button);
 }
 
