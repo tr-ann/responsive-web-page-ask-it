@@ -3,7 +3,7 @@
 }
 
 .guide__steps-container {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -37,6 +37,7 @@
   display: flex;
   border: solid 1px var(--color--guide-text);
   border-radius: 0;
+  transition: 200ms;
 }
 
 .guide-step__image {
@@ -98,6 +99,7 @@
 .guide-step__description {
   margin-top: 1.5rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: bold;
   color: var(--color--guide-text);
+  transition: 200ms;
 }

@@ -14,4 +14,13 @@
 
 .container__text {
   font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.container__text_light {
+  color: var(--color--main-text);
+}
+
+.container__text_dark {
+  color: var(--color--tricks-text);
 }

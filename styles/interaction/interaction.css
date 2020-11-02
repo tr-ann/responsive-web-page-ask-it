@@ -5,33 +5,25 @@
 
 .interaction__info-container {
   margin-bottom: 3rem;
-  width: 35rem;
+  max-width: 31rem;
 }
 
 .info-container__title {
   width: 18rem;
-  font-family: 'Lato-Medium';
+  font-weight: bold;
   margin: 1rem 0;
 }
 
 .info-container__subtitle {
   margin-bottom: 2.5rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: var(--color--interaction-text);
 }
 
 .subtitle__shape {
   width: 10rem;
 }
 
-.info-container__text {
-  font-size: 0.9rem;
-  color: var(--color--interaction-text);
-}
-
 .interaction__prompts-container {
-  width: 20rem;
+  max-width: 18rem;
   align-self: center;
   padding-top: 3.5rem;
   position: relative;
@@ -84,8 +76,7 @@
 .prompt__text {
   color: var(--color--interaction-prompt-text);
   text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: bold;
 }
 
 .prompt__image-container {
