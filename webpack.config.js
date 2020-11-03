@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 
 module.exports = {
   mode: 'development',
@@ -8,6 +9,10 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 9000,
   },
   module: {
     rules: [
@@ -20,7 +25,7 @@ module.exports = {
       },
       { test: /\.html$/, use: 'html-loader' },
       {
-        test: /\.(png|jpg|webp|ttf)$/,
+        test: /\.(png|ttf|svg)$/,
         include: path.resolve(__dirname, 'src/shared'),
         use: {
           loader: 'file-loader',
@@ -30,13 +35,6 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.svg$/,
-        use: {
-          loader: 'svg-url-loader',
-          options: {},
-        },
-      },
     ],
   },
   plugins: [
@@ -44,6 +42,9 @@ module.exports = {
     new ExtractTextPlugin({
       filename: './style.bundle.css',
       allChunks: true,
+    }),
+    new HtmlWebpackInlineSVGPlugin({
+      inlineAll: true,
     }),
   ],
 };
