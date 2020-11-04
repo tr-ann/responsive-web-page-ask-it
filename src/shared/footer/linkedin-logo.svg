@@ -1,0 +1,7 @@
+<svg fill="var(--color-footer-text)" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px">
+  <path fill="none" stroke="var(--color-footer-text)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M25 3A22 22 0 1 0 25 47A22 22 0 1 0 25 3Z"/>
+  <path fill="var(--color-footer-text)" d="M16 13A2 2 0 1 0 16 17A2 2 0 1 0 16 13Z"/>
+  <path fill="var(--color-footer-text)" d="M14 20H18V35H14zM30.5 20c-1.748
+    0-3.332.694-4.5 1.816V20h-4v15h4v-7.5c0-1.925 1.575-3.5 3.5-3.5s3.5 1.575 3.5 3.5V30v5h4v-8.5C37 22.91 34.09 20 30.5 20z"
+  />
+</svg>
