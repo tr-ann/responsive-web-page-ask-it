@@ -1,7 +1,7 @@
-@import 'colors.css';
-@import 'underlines/underlines.css';
-@import 'container/container.css';
-@import 'container/title.css';
+@import 'common/colors.css';
+@import 'underlines/underlines';
+@import 'container/container';
+@import 'container/title';
 
 html {
   font-family: 'Lato';
@@ -52,18 +52,18 @@ li {
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Light.ttf');
+  src: url('../shared/fonts/Lato-Light.ttf');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Medium.ttf');
+  src: url('../shared/fonts/Lato-Medium.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Bold.ttf');
+  src: url('../shared/fonts/Lato-Bold.ttf');
   font-weight: 700;
 }

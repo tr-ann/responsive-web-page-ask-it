@@ -1,4 +1,4 @@
-require('./styles/main.css');
+require('./styles/main.scss');
 require('./shared/footer/facebook-logo.svg');
 require('./shared/footer/twitter-logo.svg');
 require('./shared/footer/linkedin-logo.svg');
