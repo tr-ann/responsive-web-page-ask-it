@@ -2,11 +2,9 @@
   padding: 4rem;
 
   &__table {
-    display: table;
-    border-collapse: collapse;
-
     .table__row {
-      display: table-row;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .table__cell {

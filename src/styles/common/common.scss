@@ -1,7 +1,8 @@
 @import 'common/colors.css';
+@import 'adaptive.scss';
 @import 'underlines/underlines';
 @import 'container/container';
-@import 'container/title';
+@import 'container/title.scss';
 
 html {
   font-family: 'Lato';
@@ -66,4 +67,10 @@ li {
   font-family: 'Lato';
   src: url('../shared/fonts/Lato-Bold.ttf');
   font-weight: 700;
+}
+
+@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+  html {
+    font-size: 14px;
+  }
 }

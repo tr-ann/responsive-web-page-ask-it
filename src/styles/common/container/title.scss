@@ -48,3 +48,9 @@
     color: var(--color--secondary-text);
   }
 }
+
+@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+  .container__side-title {
+    display: none;
+  }
+}
