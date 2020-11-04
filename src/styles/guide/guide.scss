@@ -1,0 +1,99 @@
+.guide {
+  padding: 5rem;
+
+  &__steps-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
+
+.steps-container__guide-step {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  max-width: 15%;
+
+  .guide-step__description {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--color--guide-text);
+    transition: 200ms;
+  }
+
+  &:hover,
+  &:focus {
+    .guide-step__image-container {
+      background-color: var(--color--guide-text);
+    }
+
+    .guide-step__description {
+      text-decoration: underline;
+    }
+
+    .guide-step__image-create {
+      background-image: url('../shared/how-it-works/create-white.png');
+    }
+
+    .guide-step__image-discuss-issue {
+      background-image: url('../shared/how-it-works/discuss-issue-white.png');
+    }
+
+    .guide-step__image-share {
+      background-image: url('../shared/how-it-works/share-white.png');
+    }
+
+    .guide-step__image-favorites-button {
+      background-image: url('../shared/how-it-works/favorites-button-white.png');
+    }
+  }
+
+  &:active {
+    .guide-step__image-container {
+      border-color: var(--color--guide-text-active);
+      background-color: var(--color--guide-text-active);
+    }
+  }
+}
+
+.guide-step__image-container {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  border: solid 1px var(--color--guide-text);
+  border-radius: 0;
+  transition: 200ms;
+
+  .guide-step__image {
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.guide-step__image-create {
+  background-image: url('../shared/how-it-works/create.png');
+  height: 60%;
+  width: 40%;
+}
+
+.guide-step__image-discuss-issue {
+  background-image: url('../shared/how-it-works/discuss-issue.png');
+  height: 70%;
+  width: 60%;
+}
+
+.guide-step__image-share {
+  background-image: url('../shared/how-it-works/share.png');
+  height: 60%;
+  width: 60%;
+}
+
+.guide-step__image-favorites-button {
+  background-image: url('../shared/how-it-works/favorites-button.png');
+  height: 70%;
+  width: 70%;
+}
