@@ -1,11 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: ['./src/index.js', './src/styles/main.css'],
+  entry: ['./src/index.js'],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -17,19 +16,27 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(css|scss)$/,
-        include: path.resolve(__dirname, 'src/styles'),
+        test: /\.(css|sass)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       { test: /\.html$/, use: 'html-loader' },
       {
-        test: /\.(png|ttf)$/,
-        include: path.resolve(__dirname, 'src/shared'),
+        test: /\.png$/,
         use: {
           loader: 'file-loader',
           options: {
             name: '[name].[hash:8].[ext]',
             outputPath: 'images',
+          },
+        },
+      },
+      {
+        test: /\.ttf$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts',
           },
         },
       },
@@ -44,9 +51,6 @@ module.exports = {
     new ExtractTextPlugin({
       filename: './style.bundle.css',
       allChunks: true,
-    }),
-    new HtmlWebpackInlineSVGPlugin({
-      inlineAll: true,
     }),
   ],
 };
