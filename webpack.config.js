@@ -17,15 +17,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(css|scss)$/,
         include: path.resolve(__dirname, 'src/styles'),
-        use: ExtractTextPlugin.extract({
-          use: 'css-loader',
-        }),
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       { test: /\.html$/, use: 'html-loader' },
       {
-        test: /\.(png|ttf|svg)$/,
+        test: /\.(png|ttf)$/,
         include: path.resolve(__dirname, 'src/shared'),
         use: {
           loader: 'file-loader',
@@ -34,6 +32,10 @@ module.exports = {
             outputPath: 'images',
           },
         },
+      },
+      {
+        test: /\.svg$/,
+        use: ['svg-sprite-loader', 'svgo-loader'],
       },
     ],
   },
