@@ -33,17 +33,14 @@
   margin: 1.5rem auto;
 }
 
-.info-block__link {
-  transition: transform 0.2s;
-}
-
 .info-block__link svg {
+  transition: transform 0.2s;
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.info-block__link:hover,
-.info-block__link:focus {
+.info-block__link:hover svg,
+.info-block__link:focus svg {
   transform: scale(1.1);
 }
 
@@ -73,17 +70,14 @@
   flex: auto;
 }
 
-.newsletter__link {
-  transition: 200ms;
-}
-
 .newsletter__link svg {
+  transition: 200ms;
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.newsletter__link:hover,
-.newsletter__link:focus {
+.newsletter__link:hover svg,
+.newsletter__link:focus svg {
   transform: scale(1.05);
 }
 
