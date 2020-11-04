@@ -1,0 +1,48 @@
+.about-us {
+  margin: 3rem 0;
+}
+
+.about-us-info {
+  &__title {
+    margin: 0px;
+  }
+
+  &__subtitle {
+    margin: 0px 0px 1rem;
+  }
+
+  &__text {
+    max-width: 31rem;
+    margin-right: 1rem;
+  }
+
+  &__statistics {
+    position: relative;
+    margin: auto 1rem;
+    max-width: 9rem;
+
+    .statistics__title {
+      font-size: 2rem;
+      font-weight: normal;
+    }
+
+    .statistics__text {
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: 100;
+      margin: 0.8rem 0 1.3rem;
+    }
+
+    &_success {
+      color: var(--color--about-us-success);
+    }
+
+    &_warning {
+      color: var(--color--about-us-warning);
+    }
+
+    &_danger {
+      color: var(--color--about-us-danger);
+    }
+  }
+}
