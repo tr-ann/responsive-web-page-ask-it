@@ -1,8 +1,8 @@
 @import 'common/colors.css';
-@import 'adaptive.scss';
+@import 'adaptive';
 @import 'underlines/underlines';
 @import 'container/container';
-@import 'container/title.scss';
+@import 'container/title';
 
 html {
   font-family: 'Lato';
@@ -33,7 +33,7 @@ a {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0px;
   font-weight: 100;
 }

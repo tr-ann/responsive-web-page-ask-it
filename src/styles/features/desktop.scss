@@ -1,24 +1,18 @@
 .features {
   padding: 4rem;
 
-  &__table {
-    .table__row {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .table__cell {
-      position: relative;
-      display: table-cell;
-      width: 17rem;
-    }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   &__item {
     display: flex;
+    position: relative;
     text-align: center;
     flex-flow: column nowrap;
-    margin: 2rem 3rem;
+    padding: 2rem 3rem;
+    width: 17rem;
 
     .features-item__image {
       color: var(--color--features-text);
@@ -32,35 +26,31 @@
       font-weight: bold;
       margin-top: 1rem;
     }
+
+    &:nth-child(n + 4) {
+      .features__item_bottom-border::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 2px;
+        background-color: var(--color--features-text);
+      }
+    }
   }
 }
 
-.table__row {
-  &:nth-child(odd) {
-    .table__cell::after {
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 20%;
-      width: 2px;
-      height: 60%;
-      background-color: var(--color--features-text);
-    }
+.features__item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 2px;
+  height: 60%;
+  background-color: var(--color--features-text);
+}
 
-    .table__cell:nth-child(3n)::after {
-      content: none;
-    }
-  }
-
-  &:nth-child(even) {
-    .table__cell::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 10%;
-      width: 80%;
-      height: 2px;
-      background-color: var(--color--features-text);
-    }
-  }
+.features__item:nth-child(3n)::after {
+  content: none;
 }

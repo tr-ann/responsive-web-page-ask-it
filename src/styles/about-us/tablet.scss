@@ -1,0 +1,70 @@
+@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+  $statistics-icon-size: 5rem;
+  $statistics-circle-center: 2.5rem;
+
+  .about-us {
+    margin: 3rem 0 5rem;
+
+    .container__title {
+      font-size: 1.5rem;
+    }
+
+    &__container {
+      flex-direction: column-reverse;
+      width: 100vw;
+    }
+  }
+
+  .about-us-info {
+    &__title {
+      font-size: 2.5rem;
+    }
+
+    &__subtitle {
+      margin: 1rem 0;
+    }
+
+    &__text {
+      align-self: center;
+      text-align: center;
+    }
+
+    &__statistics {
+      max-width: 10rem;
+
+      .statistics__title {
+        font-size: 3rem;
+      }
+
+      .statistics__text {
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 100;
+        margin: 0.8rem 0 1.3rem;
+      }
+    }
+  }
+
+  .about-us-info__statistics-container {
+    margin: 3rem 0;
+  }
+
+  .statistics__icon {
+    width: $statistics-icon-size;
+    height: $statistics-icon-size;
+
+    .statistics__circle {
+      cx: $statistics-circle-center;
+      cy: $statistics-circle-center;
+    }
+
+    .statistics__circle_outer {
+      stroke-width: 0.7rem;
+      r: 1.75rem;
+    }
+
+    .statistics__circle_inner {
+      r: 1.3rem;
+    }
+  }
+}

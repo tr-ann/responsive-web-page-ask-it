@@ -2,21 +2,21 @@
   background-color: var(--color-footer-background);
   color: var(--color-footer-text);
   padding: 1.5rem;
-}
 
-.footer__inner-container {
-  padding: 4rem;
-  justify-content: center;
-  align-items: center;
-}
+  &__inner-container {
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
 
-.footer__image-container {
-  max-width: 18.5rem;
-  justify-content: right;
+  &__image-container {
+    max-width: 18.5rem;
+    justify-content: right;
 
-  .footer__image {
-    height: 6rem;
-    margin-bottom: 2rem;
+    .footer__image {
+      height: 6rem;
+      margin-bottom: 2rem;
+    }
   }
 }
 
@@ -52,6 +52,11 @@
 
 .footer__social-block {
   min-width: 16rem;
+
+  .newsletter__title {
+    font-size: 1rem;
+    font-weight: 100;
+  }
 }
 
 .info-block_text-center {

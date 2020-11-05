@@ -6,3 +6,11 @@
     flex-direction: row-reverse;
   }
 }
+
+@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+  .subtitle-underline {
+    padding: 0.5rem 0;
+    display: block;
+    margin: auto;
+  }
+}

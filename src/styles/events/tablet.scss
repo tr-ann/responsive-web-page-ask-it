@@ -1,0 +1,20 @@
+@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+  .events {
+    padding: 4rem 0;
+  }
+
+  .events__cards-container {
+    justify-content: space-evenly;
+    margin: 1.5rem 0 3rem;
+  }
+
+  .card__title {
+    font-size: 2rem;
+  }
+
+  .card-info {
+    &__button {
+      margin-bottom: 1rem;
+    }
+  }
+}
