@@ -1,13 +1,17 @@
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .header {
-    justify-content: space-around;
+    justify-content: center;
 
     &__logo-container {
       display: none;
     }
-  }
 
-  .navigation-list__list-item {
-    padding: 2rem 1rem;
+    &__navigation-list {
+      margin: 0 3rem;
+
+      .navigation-list__list-item {
+        padding: 4rem 1rem;
+      }
+    }
   }
 }

@@ -7,27 +7,29 @@
       text-align: center;
       max-width: 45%;
     }
+
+    &__prompts-container {
+      height: 35rem;
+      padding: 6rem 0rem 0rem;
+    }
   }
 
-  .info-container__title {
-    font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    width: 100%;
-  }
+  .info-container {
+    &__title {
+      font-size: 1.4rem;
+      letter-spacing: 0.05rem;
+      width: 100%;
+    }
 
-  .info-container__subtitle {
-    font-size: 1.6rem;
-    font-weight: normal;
-    margin-bottom: 4rem;
-  }
+    &__subtitle {
+      font-size: 1.7rem;
+      font-weight: normal;
+      margin-bottom: 4rem;
+    }
 
-  .info-container__text {
-    margin: 0;
-  }
-
-  .interaction__prompts-container {
-    height: 35rem;
-    padding: 6rem 0rem 0rem;
+    &__text {
+      margin: 0;
+    }
   }
 
   .prompts-container__prompt {

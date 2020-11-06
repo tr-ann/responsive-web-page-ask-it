@@ -56,6 +56,30 @@
       background-color: var(--color--guide-text-active);
     }
   }
+
+  .guide-step__image-create {
+    background-image: url('../shared/how-it-works/create.png');
+    height: 60%;
+    width: 40%;
+  }
+
+  .guide-step__image-discuss-issue {
+    background-image: url('../shared/how-it-works/discuss-issue.png');
+    height: 70%;
+    width: 60%;
+  }
+
+  .guide-step__image-share {
+    background-image: url('../shared/how-it-works/share.png');
+    height: 60%;
+    width: 60%;
+  }
+
+  .guide-step__image-favorites-button {
+    background-image: url('../shared/how-it-works/favorites-button.png');
+    height: 70%;
+    width: 70%;
+  }
 }
 
 .guide-step__image-container {
@@ -72,28 +96,4 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-}
-
-.guide-step__image-create {
-  background-image: url('../shared/how-it-works/create.png');
-  height: 60%;
-  width: 40%;
-}
-
-.guide-step__image-discuss-issue {
-  background-image: url('../shared/how-it-works/discuss-issue.png');
-  height: 70%;
-  width: 60%;
-}
-
-.guide-step__image-share {
-  background-image: url('../shared/how-it-works/share.png');
-  height: 60%;
-  width: 60%;
-}
-
-.guide-step__image-favorites-button {
-  background-image: url('../shared/how-it-works/favorites-button.png');
-  height: 70%;
-  width: 70%;
 }

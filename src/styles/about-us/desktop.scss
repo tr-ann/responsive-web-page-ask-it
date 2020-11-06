@@ -15,14 +15,14 @@ $statistics-circle-center: 2rem;
   }
 
   &__text {
-    max-width: 31rem;
+    max-width: 25rem;
     margin-right: 1rem;
   }
 
   &__statistics {
     position: relative;
-    margin: auto 1rem;
-    max-width: 9rem;
+    margin: auto 0.5rem;
+    width: 8.5rem;
 
     .statistics__title {
       font-size: 2rem;

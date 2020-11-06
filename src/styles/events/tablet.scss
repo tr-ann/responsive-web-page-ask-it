@@ -1,11 +1,14 @@
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .events {
     padding: 4rem 0;
-  }
 
-  .events__cards-container {
-    justify-content: space-evenly;
-    margin: 1.5rem 0 3rem;
+    &__cards-container {
+      margin: 1.5rem 0 3rem;
+    }
+
+    &__card {
+      margin: 1.5rem 1rem 0;
+    }
   }
 
   .card__title {
