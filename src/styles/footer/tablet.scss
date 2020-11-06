@@ -1,4 +1,4 @@
-@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .footer {
     font-size: 1.3rem;
     font-weight: 100;

@@ -25,7 +25,7 @@
   }
 }
 
-@media (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .container__text {
     font-size: 1rem;
     font-weight: 100;
