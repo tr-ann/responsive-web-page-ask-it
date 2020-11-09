@@ -53,3 +53,9 @@
     display: none;
   }
 }
+
+@media (max-width: $mobile-max-width) {
+  .container__side-title {
+    display: none;
+  }
+}

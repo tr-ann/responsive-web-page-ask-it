@@ -28,15 +28,16 @@
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .container__text {
     font-size: 1rem;
-    font-weight: 100;
 
-    &_light {
-      color: var(--color--main-text);
+    p {
+      margin: 0;
     }
+  }
+}
 
-    &_dark {
-      color: var(--color--tricks-text);
-    }
+@media (max-width: $mobile-max-width) {
+  .container__text {
+    font-size: 1rem;
 
     p {
       margin: 0;
