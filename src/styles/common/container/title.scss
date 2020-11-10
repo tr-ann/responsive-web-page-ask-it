@@ -16,6 +16,11 @@
   &_large-space {
     letter-spacing: 0.3rem;
   }
+
+  &_underlines {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .container__side-title {
