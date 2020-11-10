@@ -22,6 +22,29 @@
     margin-bottom: 1rem;
   }
 
+  .landing-underlines {
+    height: 0.3rem;
+    width: 20rem;
+
+    .long-line rect {
+      width: 100%;
+    }
+
+    .medium-line {
+      width: 10%;
+
+      rect {
+        width: 40%;
+        x: 40%;
+      }
+    }
+
+    .short-line rect {
+      width: 40%;
+      x: 60%;
+    }
+  }
+
   .text-container__subtitle {
     font-size: 1.6rem;
     color: var(--color--landing-text);

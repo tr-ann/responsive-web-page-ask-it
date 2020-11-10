@@ -1,0 +1,20 @@
+@media (max-device-width: $mobile-max-width) {
+  .landing {
+    height: 30rem;
+    padding-top: 8rem;
+    background-size: cover;
+
+    &__app-container {
+      display: none;
+    }
+
+    .single-button-container__button {
+      font-size: 1.3rem;
+    }
+
+    .single-button-container__input {
+      width: 5.7rem;
+      font-size: 1.3rem;
+    }
+  }
+}
