@@ -1,0 +1,25 @@
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .partners {
+    padding: 3rem;
+
+    &__partners-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 3rem 0 0;
+
+      .partners-list__item {
+        margin: 2rem 1rem;
+
+        &_align-center {
+          grid-column-start: 2;
+          grid-column-end: 3;
+        }
+
+        .partners-item__image {
+          max-height: 3rem;
+          max-width: 7rem;
+        }
+      }
+    }
+  }
+}

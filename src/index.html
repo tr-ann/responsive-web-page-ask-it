@@ -83,17 +83,11 @@
         <h1 class="container__title container__title_dark container__title_large-space">
           How it works
           <div class="underlines-container">
-            <svg width="4.5rem" height="0.2rem">
-              <rect
-                width="4rem"
-                height="0.2rem"
-                x="0.2rem"
-                rx="0.1rem"
-                fill="var(--color--guide-text)"
-              />
+            <svg class="long-line dark-line">
+              <rect />
             </svg>
-            <svg width="0.5rem" height="0.2rem">
-              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--guide-text)" />
+            <svg  class="short-line dark-line">
+              <rect />
             </svg>
           </div>
         </h1>
@@ -134,13 +128,13 @@
           </svg>
           Interaction
         </div>
-        <div class="interaction__info-container">
+        <div class="interaction__info-container info-container">
           <h1 class="info-container__title container__title_bold container__title_light">
             Interact with thousand of audience in no time
           </h1>
-          <h2 class="info-container__subtitle">
-            <span class="container__title_bold container__title_light">Its easier than ever</span>
-            <svg height="0.1rem" width="12rem">
+          <h2 class="info-container__subtitle container__title_bold container__title_light">
+            Its easier than ever
+            <svg class="subtitle-underline" height="3px" width="12rem">
               <rect height="0.05rem" width="12rem" fill="white" />
             </svg>
           </h2>
@@ -199,73 +193,52 @@
         <h1 class="container__title container__title_dark container__title_large-space">
           Features
           <div class="underlines-container">
-            <svg width="4.8rem" height="0.2rem">
-              <rect
-                width="4.1rem"
-                height="0.2rem"
-                x="0.2rem"
-                rx="0.1rem"
-                fill="var(--color--features-text)"
-              />
+            <svg class="long-line dark-line">
+              <rect />
             </svg>
-            <svg width="0.5rem" height="0.2rem">
-              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--features-text)" />
+            <svg  class="short-line dark-line">
+              <rect />
             </svg>
           </div>
         </h1>
-        <div class="features__table">
-          <div class="table__row">
-            <div class="table__cell">
-              <div class="features__item">
-                <img
-                  src="shared/features/microphone.png"
-                  class="features-item__image"
-                  alt="microphone"
-                />
-                <span class="features-item__text">Ask a question</span>
-              </div>
-            </div>
-            <div class="table__cell">
-              <div class="features__item">
-                <img
-                  src="shared/features/bar-chart.png"
-                  class="features-item__image"
-                  alt="bar chat"
-                />
-                <span class="features-item__text">Raise a poll</span>
-              </div>
-            </div>
-            <div class="table__cell">
-              <div class="features__item">
-                <img src="shared/features/insight.png" class="features-item__image" alt="insight" />
-                <span class="features-item__text">View statistics</span>
-              </div>
-            </div>
+        <div class="features__list">
+          <div class="features__item">
+            <img
+              src="shared/features/microphone.png"
+              class="features-item__image"
+              alt="microphone"
+            />
+            <span class="features-item__text">Ask a question</span>
+            <div class="features__item_bottom-border"></div>
           </div>
-          <div class="table__row">
-            <div class="table__cell"></div>
-            <div class="table__cell"></div>
-            <div class="table__cell"></div>
+          <div class="features__item">
+            <img
+              src="shared/features/bar-chart.png"
+              class="features-item__image"
+              alt="bar chat"
+            />
+            <span class="features-item__text">Raise a poll</span>
+            <div class="features__item_bottom-border"></div>
           </div>
-          <div class="table__row">
-            <div class="table__cell">
-              <div class="features__item">
-                <img src="shared/features/medal.png" class="features-item__image" alt="medal" />
-                <span class="features-item__text">Vote a question</span>
-              </div>
-            </div>
-            <div class="table__cell">
-              <div class="features__item">
-                <img src="shared/features/flag.png" class="features-item__image" alt="flag" />
-                <span class="features-item__text">Create a survey</span>
-              </div>
-            </div>
-            <div class="table__cell">
-              <div class="features__item">
-                <img src="shared/features/padlock.png" class="features-item__image" alt="padlock" />
-                <span class="features-item__text">Privacy ensured</span>
-              </div>
-            </div>
+          <div class="features__item">
+            <img src="shared/features/insight.png" class="features-item__image" alt="insight" />
+            <span class="features-item__text">View statistics</span>
+            <div class="features__item_bottom-border"></div>
+          </div>
+          <div class="features__item">
+            <img src="shared/features/medal.png" class="features-item__image" alt="medal" />
+            <span class="features-item__text">Vote a question</span>
+            <div class="features__item_bottom-border"></div>
+          </div>
+          <div class="features__item">
+            <img src="shared/features/flag.png" class="features-item__image" alt="flag" />
+            <span class="features-item__text">Create a survey</span>
+            <div class="features__item_bottom-border"></div>
+          </div>
+          <div class="features__item">
+            <img src="shared/features/padlock.png" class="features-item__image" alt="padlock" />
+            <span class="features-item__text">Privacy ensured</span>
+            <div class="features__item_bottom-border"></div>
           </div>
         </div>
       </section>
@@ -273,17 +246,11 @@
         <h1 class="container__title container__title_light container__title_large-space">
           Partners
           <div class="underlines-container underlines-container_reverse">
-            <svg width="5rem" height="0.2rem">
-              <rect
-                width="4rem"
-                height="0.2rem"
-                x="0.4rem"
-                rx="0.1rem"
-                fill="var(--color--partners-text)"
-              />
+            <svg class="long-line light-line">
+              <rect />
             </svg>
-            <svg width="0.7rem" height="0.2rem">
-              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--partners-text)" />
+            <svg  class="short-line light-line">
+              <rect />
             </svg>
           </div>
         </h1>
@@ -310,7 +277,7 @@
           <div class="partners-list__item">
             <img class="partners-item__image" src="shared/partners/zappos.png" alt="zappos" />
           </div>
-          <div class="partners-list__item">
+          <div class="partners-list__item partners-list__item_align-center">
             <img class="partners-item__image" src="shared/partners/siemens.png" alt="siemens" />
           </div>
         </div>
@@ -319,17 +286,11 @@
         <h1 class="container__title container__title_dark container__title_large-space">
           Events
           <div class="underlines-container">
-            <svg width="4.5rem" height="0.2rem">
-              <rect
-                width="3.8rem"
-                height="0.2rem"
-                x="0.2rem"
-                rx="0.1rem"
-                fill="var(--color--events-title)"
-              />
+            <svg class="long-line dark-line">
+              <rect />
             </svg>
-            <svg width="0.5rem" height="0.2rem">
-              <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--events-title)" />
+            <svg  class="short-line dark-line">
+              <rect />
             </svg>
           </div>
         </h1>
@@ -339,7 +300,7 @@
               external
               <span class="card__title_bold">event</span>
             </h1>
-            <div class="container container_column">
+            <div class="container container_column card-info">
               <img class="card-info__image" src="./shared/events/usb-connection.png" /></img>
               <p class="card-info__text">
                 Offers customizable on-line registration service for event organizers. Includes
@@ -353,7 +314,7 @@
               interactive
               <span class="card__title_bold">event</span>
             </h1>
-            <div class="container container_column">
+            <div class="container container_column card-info">
               <img
                 class="card-info__image"
                 src="./shared/events/interactivity.png"
@@ -371,7 +332,7 @@
               internal
               <span class="card__title_bold">event</span>
             </h1>
-            <div class="container container_column">
+            <div class="container container_column card-info">
               <img class="card-info__image" src="./shared/events/hard-disk.png" alt="connection" />
               <p class="card-info__text">
                 Offers customizable on-line registration service for event organizers. Includes
@@ -383,7 +344,7 @@
         </div>
       </section>
       <section id="about" class="container container_row">
-        <div class="container__side-title container__side-title_dark side-title_without-right-border">
+        <div class="container__side-title container__side-title_dark container__side-title_without-right-border">
           <svg height="1.7rem" width="100%">
             <rect width="100%" height="0.07rem" y="0.85rem" x="0.9rem" fill="var(--color--about-us-title)" />
             <circle r="0.4rem" cy="0.85rem" cx="0.5rem" fill="var(--color--about-us-title)" />
@@ -394,26 +355,26 @@
           <h1 class="container__title container__title_dark container__title_large-space">
             About us
             <div class="underlines-container underlines-container_reverse">
-              <svg width="5rem" height="0.2rem">
-                <rect width="4.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--about-us-title)" />
+              <svg class="long-line dark-line">
+                <rect />
               </svg>
-              <svg width="1rem" height="0.2rem">
-                <rect width="0.5rem" height="0.2rem" rx="0.1rem" fill="var(--color--about-us-title)" />
+              <svg  class="short-line dark-line">
+                <rect />
               </svg>
             </div>
           </h1>
-          <div class="about-us__about-us-info container container_row">
+          <div class="about-us__container container container_row">
             <div class="about-us-info__text">
               <h1 class="about-us-info__title container__title_bold container__title_dark">
                 Who we are?
               </h1>
               <h2 class="about-us-info__subtitle container__title_dark">
                 What we can do for you
-                <svg height="0.1rem" width="8rem">
+                <svg class="subtitle-underline" height="0.1rem" width="8rem">
                   <rect height="0.1rem" width="8rem" fill="var(--color--about-us-title)" />
                 </svg>
               </h2>
-              <div class="container__text container__text_dark">
+              <div class="about-us-info__description container__text container__text_dark">
                 <p>it’s never been easier to connect with people who speak this language. They 
                   want others to build up their self-image and confidence, and digital connectivity 
                   creates ample opportunity to tell your
@@ -425,11 +386,11 @@
                 </p>
               </div>
             </div>
-            <div class="container container_row">
+            <div class="container container_row about-us-info__statistics-container">
               <div class="about-us-info__statistics container container_column">
-                <svg width="4rem" height="4rem">
-                  <circle cx="2rem" cy="2rem" r="1.3rem" stroke="var(--color--success-light)" fill="transparent" stroke-width="0.5rem"/>
-                  <circle cx="2rem" cy="2rem" r="1rem" fill="var(--color--about-us-success)"/>
+                <svg class="statistics__icon">
+                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--success-light)" fill="transparent"/>
+                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-success)"/>
                 </svg>
                 <p class="statistics__title about-us-info__statistics_success about-us-info__title">20,145</p>
                 <span class="statistics__text container__text_dark">audience served</span>
@@ -438,9 +399,9 @@
                 </svg>
               </div>
               <div class="about-us-info__statistics container container_column">
-                <svg width="4rem" height="4rem">
-                  <circle cx="2rem" cy="2rem" r="1.3rem" stroke="var(--color--danger-light)" fill="transparent" stroke-width="0.5rem"/>
-                  <circle cx="2rem" cy="2rem" r="1rem" fill="var(--color--about-us-danger)"/>
+                <svg class="statistics__icon">
+                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--danger-light)" fill="transparent"/>
+                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-danger)"/>
                 </svg>
                 <p class="statistics__title about-us-info__statistics_danger about-us-info__title">5480</p>
                 <span class="statistics__text container__text_dark">hours of service</span>
@@ -449,9 +410,9 @@
                 </svg>
               </div>
               <div class="about-us-info__statistics container container_column">
-                <svg width="4rem" height="4rem">
-                  <circle cx="2rem" cy="2rem" r="1.3rem" stroke="var(--color--warning-light)" fill="transparent" stroke-width="0.5rem"/>
-                  <circle cx="2rem" cy="2rem" r="1rem" fill="var(--color--about-us-warning)"/>
+                <svg class="statistics__icon">
+                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--warning-light)" fill="transparent"/>
+                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-warning)"/>
                 </svg>
                 <p class="statistics__title about-us-info__statistics_warning about-us-info__title">715</p>
                 <span class="statistics__text container__text_dark">event covered</span>
@@ -475,7 +436,7 @@
             The application is to be used mainly by corporate and government customers.
           </p>
         </div>
-        <div class="container container_row">
+        <div class="footer__control-block container container_row">
           <div class="footer__info-block">
             <p class="container__title_bold">Useful Links</p>
             <ul class="container__text">
@@ -524,7 +485,7 @@
                 </svg>
               </a>
             </div>
-            <span class="container__text">Subscribe to our newsletter</span>
+            <span class="newsletter__title">Subscribe to our newsletter</span>
             <div class="container container_row info-block__newsletter">
               <input class="newsletter__input" type="email" placeholder="Email address">
               <a href="#" class="newsletter__link">

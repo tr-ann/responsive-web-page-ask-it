@@ -1,7 +1,8 @@
-@import 'colors.css';
-@import 'underlines/underlines.css';
-@import 'container/container.css';
-@import 'container/title.css';
+@import 'common/colors.css';
+@import 'adaptive';
+@import 'underlines/underlines';
+@import 'container/container';
+@import 'container/title';
 
 html {
   font-family: 'Lato';
@@ -32,7 +33,7 @@ a {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   margin-top: 0px;
   font-weight: 100;
 }
@@ -52,18 +53,30 @@ li {
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Light.ttf');
+  src: url('../shared/fonts/Lato-Light.ttf');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Medium.ttf');
+  src: url('../shared/fonts/Lato-Medium.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('../../shared/fonts/Lato-Bold.ttf');
+  src: url('../shared/fonts/Lato-Bold.ttf');
   font-weight: 700;
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: $mobile-max-width) {
+  html {
+    font-size: 10px;
+  }
 }

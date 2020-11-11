@@ -1,8 +1,0 @@
-.underlines-container {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.underlines-container_reverse {
-  flex-direction: row-reverse;
-}

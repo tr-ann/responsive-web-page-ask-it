@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+
+  &_column {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  &_row {
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  &__text {
+    font-size: 0.9rem;
+    font-weight: 100;
+
+    &_light {
+      color: var(--color--main-text);
+    }
+
+    &_dark {
+      color: var(--color--tricks-text);
+    }
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .container__text {
+    font-size: 1rem;
+    font-weight: 100;
+
+    &_light {
+      color: var(--color--main-text);
+    }
+
+    &_dark {
+      color: var(--color--tricks-text);
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
