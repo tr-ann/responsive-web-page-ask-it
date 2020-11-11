@@ -87,7 +87,23 @@
 .card-info {
   &__image {
     height: 3rem;
+    width: 3rem;
     margin: 1rem auto 0.2rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_usb-connection {
+      background-image: url('../shared/events/usb-connection.png');
+    }
+
+    &_interactivity {
+      background-image: url('../shared/events/interactivity.png');
+    }
+
+    &_hard-disk {
+      background-image: url('../shared/events/hard-disk.png');
+    }
   }
 
   &__text {

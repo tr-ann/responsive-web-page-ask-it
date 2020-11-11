@@ -80,6 +80,18 @@
     &__image {
       height: 5rem;
       margin: 1rem 1rem 0.2rem;
+
+      &_usb-connection {
+        background-image: url('../shared/events/usb-connection-white.png');
+      }
+
+      &_interactivity {
+        background-image: url('../shared/events/interactivity-white.png');
+      }
+
+      &_hard-disk {
+        background-image: url('../shared/events/hard-disk-white.png');
+      }
     }
 
     &__text {
