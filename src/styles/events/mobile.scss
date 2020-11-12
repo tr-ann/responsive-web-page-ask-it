@@ -20,6 +20,7 @@
 
       &:hover {
         transform: none;
+        box-shadow: none;
         z-index: 1;
       }
     }
@@ -49,27 +50,27 @@
         ),
         url('../shared/events/cyber-eye.png');
     }
-  }
 
-  .card__title {
-    padding: 1.5rem 1rem;
-    background-size: cover;
-    background-position: center center;
+    &__title {
+      padding: 1.5rem 1rem;
+      background-size: cover;
+      background-position: center center;
 
-    &_bold {
-      font-weight: bold;
-      font-size: 3rem;
-      letter-spacing: 0.2rem;
-    }
+      &_bold {
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+      }
 
-    &_internal-event-bg,
-    &_external-event-bg,
-    &_interactive-event-bg {
-      background-image: none;
-    }
+      &_internal-event-bg,
+      &_external-event-bg,
+      &_interactive-event-bg {
+        background-image: none;
+      }
 
-    &::after {
-      content: none;
+      &::after {
+        content: none;
+      }
     }
   }
 
@@ -129,6 +130,10 @@
 
       &:hover,
       &:focus {
+        transform: scale(1.05);
+      }
+
+      &:active {
         transform: scale(0.95);
       }
 
