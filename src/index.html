@@ -10,7 +10,7 @@
       <div class="header__logo-container">
         <img class="logo-container__image" src="shared/logo/logo-color.png" alt="Site logo" />
       </div>
-      <svg class="header__menu" onclick="toggleHeaderMenu()">
+      <svg class="header__menu">
         <circle cx="50%" cy="50%" r="47%"></circle>
         <rect x="20%" y="28%" />
         <rect x="20%" y="46%" />
@@ -578,14 +578,4 @@
       <div class="container__title">&copy 2016 AskVote.io, all rights received</div>
     </footer>
   </body>
-  <script>
-    function toggleHeaderMenu() {
-      let menu = document.getElementsByClassName('header__mobile-navigation')[0];
-      if (menu.classList.contains('header__mobile-navigation_show')) {
-        menu.classList.remove('header__mobile-navigation_show');
-      } else {
-        menu.classList.add('header__mobile-navigation_show');
-      }
-    }
-  </script>
 </html>
