@@ -5,7 +5,7 @@ require('./shared/footer/linkedin-logo.svg');
 require('./shared/footer/pinterest-logo.svg');
 require('./shared/footer/mail.svg');
 
-let menuIcon = document.getElementsByClassName('header__menu')[0];
+let menuIcon = document.querySelector('.header__menu');
 menuIcon.addEventListener('click', toggleHeaderMenu);
 
 function toggleHeaderMenu() {
