@@ -1,0 +1,8 @@
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .landing__app-container {
+    .app-container__image {
+      margin-left: 2rem;
+      max-width: 36vw;
+    }
+  }
+}
