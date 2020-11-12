@@ -10,14 +10,12 @@
       <div class="header__logo-container">
         <img class="logo-container__image" src="shared/logo/logo-color.png" alt="Site logo" />
       </div>
-      <a href="#" class="header__menu">
-        <svg>
-          <circle cx="50%" cy="50%" r="47%"></circle>
-          <rect x="20%" y="28%" />
-          <rect x="20%" y="46%" />
-          <rect x="20%" y="64%" />
-        </svg>
-      </a>
+      <svg class="header__menu" onclick="toggleHeaderMenu()">
+        <circle cx="50%" cy="50%" r="47%"></circle>
+        <rect x="20%" y="28%" />
+        <rect x="20%" y="46%" />
+        <rect x="20%" y="64%" />
+      </svg>
       <nav class="header__navigation-list">
         <a href="#landing" class="navigation-list__list-item disable-layout-shift" data-text="Home">
           Home
@@ -68,6 +66,16 @@
           <span class="auth-item__text disable-layout-shift" data-text="Register">Register</span>
         </a>
       </div>
+      <ol class="header__mobile-navigation">
+        <a href="#landing"><li>Home</li></a>
+        <a href="#howitworks"><li>How it works</li></a>
+        <a href="#features"><li>Features</li></a>
+        <a href="#partners"><li>Partners</li></a>
+        <a href="#events"><li>Events</li></a>
+        <a href="#about"><li>About us</li></a>
+        <a href="#"><li>Log in</li></a>
+        <a href="#"><li>Register</li></a>
+      </ol>
     </header>
     <main>
       <section id="landing" class="landing container container_row">
@@ -570,4 +578,14 @@
       <div class="container__title">&copy 2016 AskVote.io, all rights received</div>
     </footer>
   </body>
+  <script>
+    function toggleHeaderMenu() {
+      let menu = document.getElementsByClassName('header__mobile-navigation')[0];
+      if (menu.classList.contains('header__mobile-navigation_show')) {
+        menu.classList.remove('header__mobile-navigation_show');
+      } else {
+        menu.classList.add('header__mobile-navigation_show');
+      }
+    }
+  </script>
 </html>
