@@ -78,5 +78,9 @@ li {
 @media (max-width: $mobile-max-width) {
   html {
     font-size: 10px;
+
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }

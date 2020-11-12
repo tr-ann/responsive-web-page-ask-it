@@ -2,31 +2,45 @@
   display: flex;
   flex-flow: row nowrap;
   height: 3px;
+  width: 5rem;
 
   &_reverse {
     flex-direction: row-reverse;
+    align-self: flex-end;
   }
 
   .long-line {
-    width: 3rem;
+    width: 60%;
     height: 100%;
 
     rect {
       width: 95%;
       height: 100%;
-      rx: 0.1rem;
+      ry: 50%;
     }
   }
 
-  .short-line {
-    width: 1.2rem;
+  .medium-line {
+    width: 24%;
     height: 100%;
 
     rect {
       width: 40%;
       height: 100%;
       x: 20%;
-      rx: 0.1rem;
+      ry: 50%;
+    }
+  }
+
+  .short-line {
+    width: 6%;
+    height: 100%;
+
+    rect {
+      width: 40%;
+      height: 100%;
+      x: 20%;
+      ry: 50%;
     }
   }
 
@@ -43,8 +57,26 @@
   }
 }
 
+.subtitle-underline {
+  width: 12rem;
+  height: 1px;
+}
+
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .subtitle-underline {
+    padding: 0.5rem 0;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: $mobile-max-width) {
+  .underlines-container {
+    height: 1px;
+  }
+
+  .subtitle-underline {
+    width: 7rem;
     padding: 0.5rem 0;
     display: block;
     margin: auto;

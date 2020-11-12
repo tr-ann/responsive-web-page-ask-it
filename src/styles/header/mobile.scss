@@ -1,0 +1,45 @@
+@media (max-width: $mobile-max-width) {
+  .header {
+    &__navigation-list {
+      display: none;
+    }
+
+    &__logo-container {
+      margin: auto 0;
+      color: var(--color--header-text);
+
+      .logo-container__image {
+        width: 8rem;
+        padding: 1.5rem;
+      }
+    }
+
+    &__auth-container {
+      display: none;
+    }
+
+    &__menu {
+      position: absolute;
+      right: 0;
+      align-self: center;
+      margin: 0 2rem;
+
+      svg {
+        height: 5rem;
+        width: 5rem;
+
+        circle {
+          stroke-width: 2px;
+          stroke: var(--color--header-text);
+        }
+
+        rect {
+          width: 60%;
+          height: 3px;
+          ry: 1.5px;
+          fill: var(--color--header-text);
+        }
+      }
+    }
+  }
+}

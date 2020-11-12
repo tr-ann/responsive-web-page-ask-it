@@ -1,0 +1,19 @@
+@media (max-width: $mobile-max-width) {
+  .guide {
+    padding: 1rem 0;
+
+    &__steps-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps-container__guide-step {
+      max-width: none;
+      margin-bottom: 1.5rem;
+
+      .guide-step__description {
+        width: 60%;
+      }
+    }
+  }
+}

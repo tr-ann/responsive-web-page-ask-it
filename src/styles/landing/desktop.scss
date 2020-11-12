@@ -1,5 +1,8 @@
 .landing {
-  background: linear-gradient(rgba(24, 31, 99, 0.7), rgba(17, 50, 80, 0.7)),
+  background: linear-gradient(
+      var(--color--landing-gradient-top),
+      var(--color--landing-gradient-bottom)
+    ),
     url('../shared/landing/landing-background.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -20,6 +23,29 @@
   .text-container__title {
     text-shadow: 0 0.25rem 0 var(--color--landing-text-shadow);
     margin-bottom: 1rem;
+  }
+
+  .landing-underlines {
+    height: 0.3rem;
+    width: 20rem;
+
+    .long-line rect {
+      width: 100%;
+    }
+
+    .medium-line {
+      width: 10%;
+
+      rect {
+        width: 40%;
+        x: 40%;
+      }
+    }
+
+    .short-line rect {
+      width: 40%;
+      x: 60%;
+    }
   }
 
   .text-container__subtitle {

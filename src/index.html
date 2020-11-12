@@ -10,23 +10,51 @@
       <div class="header__logo-container">
         <img class="logo-container__image" src="shared/logo/logo-color.png" alt="Site logo" />
       </div>
+      <a href="#" class="header__menu">
+        <svg>
+          <circle cx="50%" cy="50%" r="47%"></circle>
+          <rect x="20%" y="28%" />
+          <rect x="20%" y="46%" />
+          <rect x="20%" y="64%" />
+        </svg>
+      </a>
       <nav class="header__navigation-list">
         <a href="#landing" class="navigation-list__list-item disable-layout-shift" data-text="Home">
           Home
         </a>
-        <a href="#howitworks" class="navigation-list__list-item disable-layout-shift" data-text="How it works">
+        <a
+          href="#howitworks"
+          class="navigation-list__list-item disable-layout-shift"
+          data-text="How it works"
+        >
           How it works
         </a>
-        <a href="#features" class="navigation-list__list-item disable-layout-shift" data-text="Features">
+        <a
+          href="#features"
+          class="navigation-list__list-item disable-layout-shift"
+          data-text="Features"
+        >
           Features
         </a>
-        <a href="#partners" class="navigation-list__list-item disable-layout-shift" data-text="Partners">
+        <a
+          href="#partners"
+          class="navigation-list__list-item disable-layout-shift"
+          data-text="Partners"
+        >
           Partners
         </a>
-        <a href="#events" class="navigation-list__list-item disable-layout-shift" data-text="Events">
+        <a
+          href="#events"
+          class="navigation-list__list-item disable-layout-shift"
+          data-text="Events"
+        >
           Events
         </a>
-        <a href="#about" class="navigation-list__list-item disable-layout-shift" data-text="About us">
+        <a
+          href="#about"
+          class="navigation-list__list-item disable-layout-shift"
+          data-text="About us"
+        >
           About us
         </a>
       </nav>
@@ -47,17 +75,18 @@
           <div class="info-container__text-container">
             <h1
               class="text-container__title container__title container__title_light container__title_bold"
+              style="display: flex; flex-direction: column"
             >
               Live Interaction From Audience
-              <div class="underlines-container underlines-container_reverse">
-                <svg width="16rem" height="0.4rem">
-                  <rect width="16rem" height="0.3rem" rx="0.2rem" fill="white" />
+              <div class="underlines-container underlines-container_reverse landing-underlines">
+                <svg class="long-line light-line">
+                  <rect />
                 </svg>
-                <svg width="1.5rem" height="0.4rem">
-                  <rect width="1rem" height="0.3rem" rx="0.2rem" fill="white" />
+                <svg class="medium-line light-line">
+                  <rect />
                 </svg>
-                <svg width="1.5rem" height="0.4rem">
-                  <rect width="0.5rem" height="0.3rem" rx="0.2rem" fill="white" />
+                <svg class="short-line light-line">
+                  <rect />
                 </svg>
               </div>
             </h1>
@@ -86,7 +115,7 @@
             <svg class="long-line dark-line">
               <rect />
             </svg>
-            <svg  class="short-line dark-line">
+            <svg class="medium-line dark-line">
               <rect />
             </svg>
           </div>
@@ -123,7 +152,13 @@
       <section id="interaction" class="interaction container container_row">
         <div class="container__side-title container__side-title_light">
           <svg height="1.7rem" width="100%">
-            <rect width="100%" height="0.07rem" y="0.85rem" x="0.9rem" fill="var(--color--interaction-text)" />
+            <rect
+              width="100%"
+              height="0.07rem"
+              y="0.85rem"
+              x="0.9rem"
+              fill="var(--color--interaction-text)"
+            />
             <circle r="0.4rem" cy="0.85rem" cx="0.5rem" fill="var(--color--interaction-text)" />
           </svg>
           Interaction
@@ -134,8 +169,8 @@
           </h1>
           <h2 class="info-container__subtitle container__title_bold container__title_light">
             Its easier than ever
-            <svg class="subtitle-underline" height="3px" width="12rem">
-              <rect height="0.05rem" width="12rem" fill="white" />
+            <svg class="subtitle-underline">
+              <rect height="100%" width="100%" fill="white" />
             </svg>
           </h2>
           <div class="container__text container__text_light">
@@ -196,7 +231,7 @@
             <svg class="long-line dark-line">
               <rect />
             </svg>
-            <svg  class="short-line dark-line">
+            <svg class="medium-line dark-line">
               <rect />
             </svg>
           </div>
@@ -212,11 +247,7 @@
             <div class="features__item_bottom-border"></div>
           </div>
           <div class="features__item">
-            <img
-              src="shared/features/bar-chart.png"
-              class="features-item__image"
-              alt="bar chat"
-            />
+            <img src="shared/features/bar-chart.png" class="features-item__image" alt="bar chat" />
             <span class="features-item__text">Raise a poll</span>
             <div class="features__item_bottom-border"></div>
           </div>
@@ -243,13 +274,15 @@
         </div>
       </section>
       <section id="partners" class="partners container container_column">
-        <h1 class="container__title container__title_light container__title_large-space">
+        <h1
+          class="container__title container__title_light container__title_underlines container__title_large-space"
+        >
           Partners
           <div class="underlines-container underlines-container_reverse">
             <svg class="long-line light-line">
               <rect />
             </svg>
-            <svg  class="short-line light-line">
+            <svg class="medium-line light-line">
               <rect />
             </svg>
           </div>
@@ -283,82 +316,93 @@
         </div>
       </section>
       <section id="events" class="events container container_column">
-        <h1 class="container__title container__title_dark container__title_large-space">
+        <h1
+          class="events__title container__title container__title_dark container__title_large-space"
+        >
           Events
           <div class="underlines-container">
             <svg class="long-line dark-line">
               <rect />
             </svg>
-            <svg  class="short-line dark-line">
+            <svg class="medium-line dark-line">
               <rect />
             </svg>
           </div>
         </h1>
         <div class="events__cards-container container container_row">
-          <div class="events__card">
+          <div class="events__card card_external-event-bg">
             <h1 class="card__title card__title_external-event-bg">
               external
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column card-info">
-              <img class="card-info__image" src="./shared/events/usb-connection.png" /></img>
+              <div class="card-info__image card-info__image_usb-connection"></div>
               <p class="card-info__text">
                 Offers customizable on-line registration service for event organizers. Includes
                 pricing, features, and types of accounts
               </p>
+              <div class="mobile-break"></div>
               <a class="card-info__button card-info__button_success" href="#">Discover</a>
             </div>
           </div>
-          <div class="events__card">
+          <div class="events__card card_interactive-event-bg">
             <h1 class="card__title card__title_interactive-event-bg">
               interactive
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column card-info">
-              <img
-                class="card-info__image"
-                src="./shared/events/interactivity.png"
-                alt="connection"
-              />
+              <div class="card-info__image card-info__image_interactivity"></div>
               <p class="card-info__text">
                 Offers customizable on-line registration service for event organizers. Includes
                 pricing, features, and types of accounts
               </p>
+              <div class="mobile-break"></div>
               <a class="card-info__button card-info__button_danger" href="#">Discover</a>
             </div>
           </div>
-          <div class="events__card">
+          <div class="events__card card_internal-event-bg">
             <h1 class="card__title card__title_internal-event-bg">
               internal
               <span class="card__title_bold">event</span>
             </h1>
             <div class="container container_column card-info">
-              <img class="card-info__image" src="./shared/events/hard-disk.png" alt="connection" />
+              <div class="card-info__image card-info__image_hard-disk"></div>
               <p class="card-info__text">
                 Offers customizable on-line registration service for event organizers. Includes
                 pricing, features, and types of accounts
               </p>
+              <div class="mobile-break"></div>
               <a class="card-info__button card-info__button_warning" href="#">Discover</a>
             </div>
           </div>
         </div>
       </section>
       <section id="about" class="container container_row">
-        <div class="container__side-title container__side-title_dark container__side-title_without-right-border">
+        <div
+          class="container__side-title container__side-title_dark container__side-title_without-right-border"
+        >
           <svg height="1.7rem" width="100%">
-            <rect width="100%" height="0.07rem" y="0.85rem" x="0.9rem" fill="var(--color--about-us-title)" />
+            <rect
+              width="100%"
+              height="0.07rem"
+              y="0.85rem"
+              x="0.9rem"
+              fill="var(--color--about-us-title)"
+            />
             <circle r="0.4rem" cy="0.85rem" cx="0.5rem" fill="var(--color--about-us-title)" />
           </svg>
           Know us
         </div>
         <div class="about-us container container_column">
-          <h1 class="container__title container__title_dark container__title_large-space">
+          <h1
+            class="container__title container__title_dark container__title_large-space container__title_underlines"
+          >
             About us
             <div class="underlines-container underlines-container_reverse">
               <svg class="long-line dark-line">
                 <rect />
               </svg>
-              <svg  class="short-line dark-line">
+              <svg class="medium-line dark-line">
                 <rect />
               </svg>
             </div>
@@ -375,13 +419,14 @@
                 </svg>
               </h2>
               <div class="about-us-info__description container__text container__text_dark">
-                <p>it’s never been easier to connect with people who speak this language. They 
-                  want others to build up their self-image and confidence, and digital connectivity 
+                <p>
+                  it’s never been easier to connect with people who speak this language. They want
+                  others to build up their self-image and confidence, and digital connectivity
                   creates ample opportunity to tell your
                 </p>
                 <p>
-                  One option might be developing a blog series that focuses on industry wins, or 
-                  spotlights companies that are doing something right. Or if you share an article 
+                  One option might be developing a blog series that focuses on industry wins, or
+                  spotlights companies that are doing something right. Or if you share an article
                   with your network,
                 </p>
               </div>
@@ -389,10 +434,19 @@
             <div class="container container_row about-us-info__statistics-container">
               <div class="about-us-info__statistics container container_column">
                 <svg class="statistics__icon">
-                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--success-light)" fill="transparent"/>
-                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-success)"/>
+                  <circle
+                    class="statistics__circle statistics__circle_outer"
+                    stroke="var(--color--success-light)"
+                    fill="transparent"
+                  />
+                  <circle
+                    class="statistics__circle statistics__circle_inner"
+                    fill="var(--color--about-us-success)"
+                  />
                 </svg>
-                <p class="statistics__title about-us-info__statistics_success about-us-info__title">20,145</p>
+                <p class="statistics__title about-us-info__statistics_success about-us-info__title">
+                  20,145
+                </p>
                 <span class="statistics__text container__text_dark">audience served</span>
                 <svg width="100%" height="3">
                   <rect width="100%" height="3" fill="var(--color--about-us-success)"></rect>
@@ -400,10 +454,19 @@
               </div>
               <div class="about-us-info__statistics container container_column">
                 <svg class="statistics__icon">
-                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--danger-light)" fill="transparent"/>
-                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-danger)"/>
+                  <circle
+                    class="statistics__circle statistics__circle_outer"
+                    stroke="var(--color--danger-light)"
+                    fill="transparent"
+                  />
+                  <circle
+                    class="statistics__circle statistics__circle_inner"
+                    fill="var(--color--about-us-danger)"
+                  />
                 </svg>
-                <p class="statistics__title about-us-info__statistics_danger about-us-info__title">5480</p>
+                <p class="statistics__title about-us-info__statistics_danger about-us-info__title">
+                  5480
+                </p>
                 <span class="statistics__text container__text_dark">hours of service</span>
                 <svg width="100%" height="3">
                   <rect width="100%" height="3" fill="var(--color--about-us-danger)"></rect>
@@ -411,10 +474,19 @@
               </div>
               <div class="about-us-info__statistics container container_column">
                 <svg class="statistics__icon">
-                  <circle class="statistics__circle statistics__circle_outer" stroke="var(--color--warning-light)" fill="transparent"/>
-                  <circle class="statistics__circle statistics__circle_inner" fill="var(--color--about-us-warning)"/>
+                  <circle
+                    class="statistics__circle statistics__circle_outer"
+                    stroke="var(--color--warning-light)"
+                    fill="transparent"
+                  />
+                  <circle
+                    class="statistics__circle statistics__circle_inner"
+                    fill="var(--color--about-us-warning)"
+                  />
                 </svg>
-                <p class="statistics__title about-us-info__statistics_warning about-us-info__title">715</p>
+                <p class="statistics__title about-us-info__statistics_warning about-us-info__title">
+                  715
+                </p>
                 <span class="statistics__text container__text_dark">event covered</span>
                 <svg width="100%" height="3">
                   <rect width="100%" height="3" fill="var(--color--about-us-warning)"></rect>
@@ -428,16 +500,15 @@
     <footer id="footer" class="footer">
       <div class="footer__inner-container container container_row">
         <div class="footer__info-block info-block_text-center footer__image-container">
-          <img class="footer__image" src="shared/logo/logo-white.png" alt="site logo">
+          <img class="footer__image" src="shared/logo/logo-white.png" alt="site logo" />
           <p class="container__text">
-            We are AskVote.io. We are a online 
-            platform for operating events effectively. 
-            We're working on a web application for facilitating anonymous questions and answers sessions.
+            We are AskVote.io. We are a online platform for operating events effectively. We're
+            working on a web application for facilitating anonymous questions and answers sessions.
             The application is to be used mainly by corporate and government customers.
           </p>
         </div>
         <div class="footer__control-block container container_row">
-          <div class="footer__info-block">
+          <div class="footer__info-block control-block__links-container">
             <p class="container__title_bold">Useful Links</p>
             <ul class="container__text">
               <li><a href="#landing" class="info-block__hover-link">Home</a></li>
@@ -450,7 +521,7 @@
               <li><a href="#events" class="info-block__hover-link">Event list</a></li>
             </ul>
           </div>
-          <div class="footer__info-block">
+          <div class="footer__info-block control-block__links-container">
             <p class="container__title_bold">My account</p>
             <ul class="container__text">
               <li><a href="#" class="info-block__hover-link">New account</a></li>
@@ -487,7 +558,7 @@
             </div>
             <span class="newsletter__title">Subscribe to our newsletter</span>
             <div class="container container_row info-block__newsletter">
-              <input class="newsletter__input" type="email" placeholder="Email address">
+              <input class="newsletter__input" type="email" placeholder="Email address" />
               <a href="#" class="newsletter__link">
                 <svg>
                   <use xlink:href="#mail"></use>
@@ -497,9 +568,7 @@
           </div>
         </div>
       </div>
-      <div class="container__title">
-        &copy 2016 AskVote.io, all rights received
-      </div>
+      <div class="container__title">&copy 2016 AskVote.io, all rights received</div>
     </footer>
   </body>
 </html>
