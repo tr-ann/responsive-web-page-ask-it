@@ -51,11 +51,13 @@
       top: 11.5rem;
       width: 100%;
 
-      li {
+      a {
+        display: block;
         font-size: 1.5rem;
         color: var(--color--header-text);
         text-align: center;
         padding: 1rem 0;
+        margin: auto;
 
         &:hover {
           background-color: var(--color--header-hover);
