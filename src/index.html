@@ -10,14 +10,12 @@
       <div class="header__logo-container">
         <img class="logo-container__image" src="shared/logo/logo-color.png" alt="Site logo" />
       </div>
-      <a href="#" class="header__menu">
-        <svg>
-          <circle cx="50%" cy="50%" r="47%"></circle>
-          <rect x="20%" y="28%" />
-          <rect x="20%" y="46%" />
-          <rect x="20%" y="64%" />
-        </svg>
-      </a>
+      <svg class="header__menu">
+        <circle cx="50%" cy="50%" r="47%"></circle>
+        <rect x="20%" y="28%" />
+        <rect x="20%" y="46%" />
+        <rect x="20%" y="64%" />
+      </svg>
       <nav class="header__navigation-list">
         <a href="#landing" class="navigation-list__list-item disable-layout-shift" data-text="Home">
           Home
@@ -68,14 +66,23 @@
           <span class="auth-item__text disable-layout-shift" data-text="Register">Register</span>
         </a>
       </div>
+      <ul class="header__mobile-navigation">
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#howitworks">How it works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
     </header>
     <main>
       <section id="landing" class="landing container container_row">
         <div class="landing__info-container">
           <div class="info-container__text-container">
             <h1
-              class="text-container__title container__title container__title_light container__title_bold"
-              style="display: flex; flex-direction: column"
+              class="text-container__title container__title container__title_light container__title_bold container__title_underlines"
             >
               Live Interaction From Audience
               <div class="underlines-container underlines-container_reverse landing-underlines">

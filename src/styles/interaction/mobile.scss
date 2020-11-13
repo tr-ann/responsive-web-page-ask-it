@@ -10,27 +10,33 @@
     }
 
     &__prompts-container {
-      margin: 3rem 0 1.5rem -19rem;
+      margin: 3rem 0 1.5rem -17rem;
       height: auto;
       width: 100vw;
       display: flex;
       flex-flow: row nowrap;
 
       .prompts-container__prompt {
-        width: 6.5rem;
-        height: 6.5rem;
+        width: 6rem;
+        height: 6rem;
 
         &::after {
           top: -0.5rem;
           left: -0.5rem;
-          width: 7.3rem;
-          height: 7.3rem;
+          width: 6.8rem;
+          height: 6.8rem;
         }
 
         .prompt__inner-container {
-          width: 7.5rem;
-          top: -3.5rem;
-          right: 0.95rem;
+          width: 7.3rem;
+          top: -3.3rem;
+          right: 1rem;
+
+          .prompt__image-container {
+            .prompt__image {
+              height: 2.5rem;
+            }
+          }
         }
       }
     }
@@ -61,7 +67,7 @@
     }
 
     &_second {
-      margin: auto 5rem;
+      margin: auto 4.5rem;
     }
 
     &_third {

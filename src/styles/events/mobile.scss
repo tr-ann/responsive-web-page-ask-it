@@ -1,0 +1,150 @@
+@media (max-width: $mobile-max-width) {
+  .events {
+    padding: 0;
+    background-color: var(--color--events-text);
+
+    &__title {
+      display: none;
+    }
+
+    &__cards-container {
+      flex-direction: column;
+    }
+
+    &__card {
+      margin: 0.2rem 0;
+      max-width: 100%;
+      background-size: cover;
+      background-position: center;
+      box-shadow: none;
+
+      &:hover {
+        transform: none;
+        box-shadow: none;
+        z-index: 1;
+      }
+    }
+  }
+
+  .card {
+    &_internal-event-bg {
+      background-image: linear-gradient(
+          var(--color-cards-background-warning),
+          var(--color-cards-background-warning)
+        ),
+        url('../shared/events/meeting.png');
+    }
+
+    &_external-event-bg {
+      background-image: linear-gradient(
+          var(--color-cards-background-success),
+          var(--color-cards-background-success)
+        ),
+        url('../shared/events/public-speaking.png');
+    }
+
+    &_interactive-event-bg {
+      background-image: linear-gradient(
+          var(--color-cards-background-danger),
+          var(--color-cards-background-danger)
+        ),
+        url('../shared/events/cyber-eye.png');
+    }
+
+    &__title {
+      padding: 1.5rem 1rem;
+      background-size: cover;
+      background-position: center center;
+
+      &_bold {
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+      }
+
+      &_internal-event-bg,
+      &_external-event-bg,
+      &_interactive-event-bg {
+        background-image: none;
+      }
+
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  .card-info {
+    flex-flow: row wrap;
+    justify-content: center;
+
+    &__image {
+      height: 5rem;
+      margin: 1rem 1rem 0.2rem;
+
+      &_usb-connection {
+        background-image: url('../shared/events/usb-connection-white.png');
+      }
+
+      &_interactivity {
+        background-image: url('../shared/events/interactivity-white.png');
+      }
+
+      &_hard-disk {
+        background-image: url('../shared/events/hard-disk-white.png');
+      }
+    }
+
+    &__text {
+      color: var(--color--events-text);
+      text-align: center;
+      width: 70%;
+      font-size: 1.5rem;
+      font-weight: 100;
+      line-height: 1.2rem;
+      margin: 0.2rem 1rem 0;
+    }
+
+    &__button {
+      padding: 0.3rem 1.5rem 0.5rem;
+      margin: 1rem auto 2rem;
+      font-size: 1.3rem;
+      border: none;
+      background-color: var(--color--events-text);
+      text-decoration: none;
+      border-radius: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+
+      &_danger {
+        color: var(--color-cards-background-danger);
+      }
+
+      &_success {
+        color: var(--color-cards-background-success);
+      }
+
+      &_warning {
+        color: var(--color-cards-background-warning);
+      }
+
+      &:hover,
+      &:focus {
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+
+      &:active {
+        outline: none;
+        background-color: var(--color--events-text);
+      }
+    }
+  }
+
+  .mobile-break {
+    flex-basis: 100%;
+  }
+}
